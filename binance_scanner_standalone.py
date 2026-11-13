@@ -657,6 +657,42 @@ def get_risk_config(overrides=None):
     return cfg
 
 
+# ---- رأس المال المحفوظ (settings.json) — يبقى بعد الريست ويُطبَّق على كل حسابات الأحجام ----
+SETTINGS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings.json")
+
+
+def apply_equity_settings():
+    """يقرأ رأس المال المحفوظ من settings.json ويحدّث به إعدادات المخاطرة عند كل تشغيل."""
+    try:
+        s = json.load(open(SETTINGS_FILE, encoding="utf-8"))
+        eq = float(s.get("equity_usd") or 0)
+        if eq > 0:
+            RUNTIME_RISK_CONFIG["equity_usd"] = eq
+            return eq
+    except Exception:
+        pass
+    return None
+
+
+def save_equity_settings(equity):
+    """يحفظ رأس المال الجديد في settings.json (ملف دائم يتحمل الريست) ويُطبّقه فوراً على الحسابات."""
+    equity = float(equity)
+    if equity <= 0:
+        raise ValueError("INVALID_EQUITY")
+    try:
+        s = json.load(open(SETTINGS_FILE, encoding="utf-8"))
+    except Exception:
+        s = {}
+    s["equity_usd"] = round(equity, 2)
+    s["updated_at"] = dt.datetime.now(RIYADH).strftime("%Y-%m-%d %H:%M")
+    json.dump(s, open(SETTINGS_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    RUNTIME_RISK_CONFIG["equity_usd"] = round(equity, 2)
+    return RUNTIME_RISK_CONFIG["equity_usd"]
+
+
+apply_equity_settings()
+
+
 def select_safe_leverage(sym, atr_pct, effective_stop_pct_dec, strategy_type="swing_4h"):
     """تحديد الرافعة المالية الآمنة وفق تقلب العملة ونوع الاستراتيجية مع ضمان بقاء سعر التصفية أبعد بكثير من الوقف."""
     if strategy_type in ("macro_squeeze", "macro_bos"):
@@ -5165,10 +5201,11 @@ ul{margin:8px 0;padding-right:20px}li{margin:4px 0;font-size:13px}
         )
     reset_note_html = ""
     if meta.get("reset_at"):
+        eq_now = float(RUNTIME_RISK_CONFIG.get("equity_usd") or 0)
         reset_note_html = (
             f'<div class="okbox" style="margin:10px 0"><b>🗑️ تم تنفيذ الريست الشامل — {meta.get("reset_at")} (الرياض)</b><br>'
             'صُفِّرت كل الصفقات وحالة التتبع والسجل التراكمي والأرشيف. '
-            'النظام <b>جاهز لتسجيل الصفقات الجديدة ابتداءً من المسح القادم</b>.</div>'
+            f'النظام <b>جاهز لتسجيل الصفقات الجديدة ابتداءً من المسح القادم</b> · 💵 رأس المال المرجعي: <b>{eq_now:,.0f}$</b>.</div>'
         )
 
     sections = ""
@@ -5288,6 +5325,7 @@ ul{margin:8px 0;padding-right:20px}li{margin:4px 0;font-size:13px}
     <button class="abtn conf" onclick="triggerCloud('confirm')">✅ فحص تأكيد 02:45</button>
     <button class="abtn" onclick="refreshNow()">↻ تحديث الصفحة</button>
     <button class="abtn" onclick="openCfg()">⚙️ إعداد الضغطة الواحدة</button>
+    <button class="abtn" onclick="setCapitalDirect()">💵 رأس المال</button>
     <button class="abtn" style="border-color:#7f1d1d;color:#fca5a5" onclick="triggerCloud('reset')">🗑️ ريست: مسح كل الصفقات</button>
   </div>
 </div>
@@ -5510,10 +5548,131 @@ function showToast(msg) {{
 function refreshNow() {{
   location.href = location.pathname + '?t=' + Date.now();
 }}
+function b64u(s) {{
+  return btoa(unescape(encodeURIComponent(s)));
+}}
+function ghApi(path, method, bodyObj) {{
+  var tok = (localStorage.getItem('bs_gh_tok') || '').trim();
+  var repo = detectRepo();
+  return fetch('https://api.github.com/repos/' + repo + '/' + path, {{
+    method: method,
+    headers: {{ 'Accept': 'application/vnd.github+json', 'Authorization': 'Bearer ' + tok, 'Content-Type': 'application/json' }},
+    body: bodyObj ? JSON.stringify(bodyObj) : undefined
+  }}).then(function(r) {{
+    if (r.status === 404) return null;
+    if (!r.ok) throw new Error('GitHub API ' + r.status);
+    return r.json();
+  }});
+}}
+function setCapitalDirect() {{
+  var v = window.prompt('💵 أدخل رأس المال الجديد بالدولار (USDT):', '');
+  if (v === null) return;
+  v = (v || '').trim();
+  if (!(parseFloat(v) > 0)) {{ alert('❌ قيمة غير صالحة — أدخل رقماً موجباً مثل 1000'); return; }}
+  if (window._busyCap) return;
+  window._busyCap = true;
+  showToast('⏳ جاري حفظ رأس المال...');
+  var nowStr = new Date(Date.now() + 3 * 3600 * 1000).toISOString().slice(0, 16).replace('T', ' ');
+  ghApi('contents/settings.json', 'GET').then(function(f) {{
+    return ghApi('contents/settings.json', 'PUT', {{ message: '💵 تحديد رأس المال ' + v + '$', content: b64u(JSON.stringify({{ equity_usd: parseFloat(v), updated_at: nowStr }})), sha: f ? f.sha : undefined }});
+  }}).then(function() {{
+    showToast('✅ تحدّث رأس المال إلى ' + parseFloat(v).toLocaleString() + '$ — يُطبَّق على كل الحسابات');
+    try {{
+      var sub = document.querySelector('.ltsub');
+      if (sub) {{
+        var s = sub.innerHTML;
+        var i = s.indexOf('رأس المال المرجعي');
+        var m1 = s.indexOf('<b>', i);
+        var m2 = s.indexOf('</b>', m1);
+        if (i >= 0 && m1 >= 0 && m2 >= 0) sub.innerHTML = s.slice(0, m1 + 3) + parseFloat(v).toLocaleString() + '$' + s.slice(m2);
+      }}
+    }} catch (e) {{}}
+    window._busyCap = false;
+  }}).catch(function(err) {{
+    window._busyCap = false;
+    alert('❌ تعذر حفظ رأس المال: ' + err.message + ' — تأكد من إعداد رمز الوصول (⚙️).');
+  }});
+}}
+function resetDirect(cap) {{
+  if (window._busyReset) return;
+  window._busyReset = true;
+  showToast('⏳ جاري تنفيذ الريست الفوري...');
+  var nowMs = Date.now();
+  var nowStr = new Date(nowMs + 3 * 3600 * 1000).toISOString().slice(0, 16).replace('T', ' ');
+  var files = [
+    ['scan_result.json', '[]'],
+    ['held.json', '[]'],
+    ['prev_tracked.json', '[]'],
+    ['explosion_radar.json', '[]'],
+    ['tracker_state.json', JSON.stringify({{ reported_stops: {{}}, reported_cancels: {{}}, reported_closed: {{}}, carried_open: [], carried_pending: [] }})],
+    ['cycle_state.json', JSON.stringify({{ prev_ts: nowMs, track_ts: nowMs, confirm_ts: 0, pruned_stops: 0 }})],
+    ['explosion_candidates.json', JSON.stringify({{ stage: 'radar', ts: nowMs, active: [], cancelled: [] }})],
+    ['macro_investments.json', JSON.stringify({{ ts: 0, squeeze: [], bos3: [] }})],
+    ['scan_meta.json', JSON.stringify({{ reset_at: nowStr }})]
+  ];
+  var seq = Promise.resolve();
+  files.forEach(function(item) {{
+    seq = seq.then(function() {{
+      return ghApi('contents/' + item[0], 'GET').then(function(f) {{
+        return ghApi('contents/' + item[0], 'PUT', {{ message: '🗑️ ريست: تصفير ' + item[0], content: b64u(item[1]), sha: f ? f.sha : undefined }});
+      }});
+    }});
+  }});
+  seq = seq.then(function() {{
+    return ghApi('contents/lifetime_stats.json', 'GET').then(function(f) {{
+      if (f) return ghApi('contents/lifetime_stats.json', 'DELETE', {{ message: '🗑️ ريست: حذف السجل التراكمي', sha: f.sha }});
+    }});
+  }});
+  seq = seq.then(function() {{
+    return ghApi('contents/history', 'GET').then(function(list) {{
+      if (!list || !list.length) return;
+      var sub = Promise.resolve();
+      list.forEach(function(it) {{
+        sub = sub.then(function() {{
+          return ghApi('contents/' + it.path, 'DELETE', {{ message: '🗑️ ريست: حذف أرشيف مسح', sha: it.sha }});
+        }});
+      }});
+      return sub;
+    }});
+  }});
+  if (cap !== '') {{
+    seq = seq.then(function() {{
+      return ghApi('contents/settings.json', 'GET').then(function(f) {{
+        return ghApi('contents/settings.json', 'PUT', {{ message: '💵 تحديد رأس المال ' + cap + '$', content: b64u(JSON.stringify({{ equity_usd: parseFloat(cap), updated_at: nowStr }})), sha: f ? f.sha : undefined }});
+      }});
+    }});
+  }}
+  seq.then(function() {{
+    showToast('✅ تم الريست الفوري — جاهز للتسجيل من المسح القادم');
+    try {{
+      document.querySelectorAll('article.card').forEach(function(c) {{ c.style.display = 'none'; }});
+      document.querySelectorAll('.kpi b').forEach(function(b) {{ b.textContent = '0'; }});
+      var div = document.createElement('div');
+      div.className = 'okbox';
+      div.style.cssText = 'margin:12px 0;font-size:16px';
+      div.innerHTML = '<b>🗑️ تم تنفيذ الريست الفوري بنجاح</b> — صُفِّرت كل الصفقات وحالة التتبع والسجل التراكمي والأرشيف.' + (cap !== '' ? ' · 💵 رأس المال الجديد: <b>' + parseFloat(cap).toLocaleString() + '$</b>' : '') + ' النظام <b>جاهز لتسجيل الصفقات الجديدة ابتداءً من المسح القادم</b>.';
+      var host = document.querySelector('.wrap') || document.body;
+      host.insertBefore(div, host.children[1] || null);
+      window.scrollTo(0, 0);
+    }} catch (e) {{}}
+    window._busyReset = false;
+  }}).catch(function(err) {{
+    window._busyReset = false;
+    alert('❌ تعذر تنفيذ الريست: ' + err.message + ' — تأكد من إعداد رمز الوصول (⚙️) ومن صلاحياته repo.');
+  }});
+}}
 function triggerCloud(mode) {{
   var repo = detectRepo();
   var tok = (localStorage.getItem('bs_gh_tok') || '').trim();
-  if (mode === 'reset' && !window.confirm('⚠️ تأكيد الريست الشامل:\\nسيُمسح كل الصفقات وحالة التتبع والسجل التراكمي والأرشيف نهائياً، وسيبدأ التسجيل من جديد في المسح القادم.\\n\\nهل أنت متأكد؟')) return;
+  var cap = '';
+  if (mode === 'reset') {{
+    if (!window.confirm('⚠️ تأكيد الريست الشامل:\\nسيُمسح كل الصفقات وحالة التتبع والسجل التراكمي والأرشيف نهائياً، وسيبدأ التسجيل من جديد في المسح القادم.\\n\\nهل أنت متأكد؟')) return;
+    var v = window.prompt('💵 حدد رأس المال الجديد بالدولار (USDT) لتبدأ به بعد الريست:\\nمثال: 1000\\n\\n(اتركه فارغاً للإبقاء على رأس المال الحالي)', '');
+    if (v === null) return;
+    v = (v || '').trim();
+    if (v !== '' && !(parseFloat(v) > 0)) {{ alert('❌ قيمة غير صالحة — أدخل رقماً موجباً مثل 1000'); return; }}
+    cap = v;
+  }}
   if (!repo) {{
     openCfg();
     return;
@@ -5522,6 +5681,7 @@ function triggerCloud(mode) {{
     window.open('https://github.com/' + repo + '/actions/workflows/scanner.yml', '_blank');
     return;
   }}
+  if (mode === 'reset') {{ resetDirect(cap); return; }}
   var label = (mode === 'confirm') ? 'فحص تأكيد 02:45' : (mode === 'reset' ? 'الريست ومسح كل الصفقات' : 'المسح الشامل');
   showToast('⏳ جاري إرسال طلب ' + label + ' إلى السحابة...');
   fetch('https://api.github.com/repos/' + repo + '/actions/workflows/scanner.yml/dispatches', {{
@@ -5531,7 +5691,7 @@ function triggerCloud(mode) {{
       'Authorization': 'Bearer ' + tok,
       'Content-Type': 'application/json'
     }},
-    body: JSON.stringify({{ ref: 'main', inputs: {{ mode: mode }} }})
+    body: JSON.stringify({{ ref: 'main', inputs: (cap !== '' ? {{ mode: mode, capital: cap }} : {{ mode: mode }}) }})
   }}).then(function(r) {{
     if (r.status === 204 || r.ok) {{
       var sec = 65;
@@ -5830,6 +5990,8 @@ def run_reset():
     json.dump({"stage": "radar", "ts": now_ms, "active": [], "cancelled": []},
               open(os.path.join(BASE, "explosion_candidates.json"), "w", encoding="utf-8"), ensure_ascii=False)
     json.dump([], open(os.path.join(BASE, "explosion_radar.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    json.dump({"ts": 0, "squeeze": [], "bos3": []},
+              open(os.path.join(BASE, "macro_investments.json"), "w", encoding="utf-8"), ensure_ascii=False)
     json.dump({
         "universe": 0, "top_up": [], "top_dn": [], "ts": now_ms,
         "portfolio_risk": {"equity_usd": RUNTIME_RISK_CONFIG["equity_usd"], "open_positions_count": 0,
@@ -5842,7 +6004,7 @@ def run_reset():
         "reset_at": now_r.strftime("%Y-%m-%d %H:%M"),
     }, open(os.path.join(BASE, "scan_meta.json"), "w", encoding="utf-8"), ensure_ascii=False)
 
-    # 2) السجل التراكمي + أرشيف المسوحات يُمسحان بالكامل (تبقى fill_stats وmacro_investments: بيانات إدخال)
+    # 2) السجل التراكمي + أرشيف المسوحات + الاستثماري وكسر الهيكل يُمسحون بالكامل (يبقى fill_stats فقط: بيانات إدخال)
     try:
         os.remove(os.path.join(BASE, "lifetime_stats.json"))
     except FileNotFoundError:
@@ -5869,7 +6031,7 @@ def run_reset():
     open(OUT_FILE, "w", encoding="utf-8").write(doc)
 
     print("🗑️ اكتمل الريست الشامل:")
-    print("   • صفقات/تتبع/مصائد الانفجار: صُفِّرت (0 صفقة)")
+    print("   • صفقات/تتبع/مصائد الانفجار/الاستثماري وكسر الهيكل: صُفِّرت (0 صفقة)")
     print("   • السجل التراكمي: مُسح بالكامل · أرشيف المسوحات:", f"حُذف {n_hist} ملف")
     print(f"   • التقرير الفارغ جاهز: {OUT_FILE} ({len(doc):,} بايت)")
     print("   ✅ النظام جاهز لتسجيل الصفقات الجديدة ابتداءً من المسح القادم.")
@@ -7751,7 +7913,8 @@ def main():
     if args.log_level:
         SCANNER_LOGGER.setLevel(getattr(logging, args.log_level.upper(), logging.WARNING))
     if args.equity is not None and args.equity > 0:
-        RUNTIME_RISK_CONFIG["equity_usd"] = float(args.equity)
+        saved_eq = save_equity_settings(args.equity)
+        print(f"💵 رأس المال المرجعي: {saved_eq:,.2f}$ (حُفظ في settings.json — يُطبَّق على كل حسابات الأحجام)")
     # الوسيطتان نسبة مئوية دائماً (1.0 = 1% · 0.25 = 0.25%) — بلا تخمين «> 0.2» الذي كان يحوّل 0.1 إلى مخاطرة 10%!
     if args.risk_pct is not None and args.risk_pct > 0:
         if args.risk_pct >= 10:
