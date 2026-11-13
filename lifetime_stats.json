@@ -1,8 +1,8 @@
 {
   "started_at": "2026-11-09 21:30",
-  "wins": 81,
-  "losses": 98,
-  "net_r": 69.353,
+  "wins": 82,
+  "losses": 99,
+  "net_r": 69.448,
   "counted": {
     "GRASSUSDT|SHORT|1794244025015": {
       "sym": "GRASSUSDT",
@@ -1456,16 +1456,34 @@
       "r": -1.044,
       "book": "watch",
       "ts": 1794590241541
+    },
+    "MARSCOINUSDT|SHORT|1794329499178": {
+      "sym": "MARSCOINUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 1.138,
+      "book": "exec",
+      "ts": 1794595106744
+    },
+    "AEROUSDT|SHORT|1794590238259": {
+      "sym": "AEROUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.043,
+      "book": "exec",
+      "ts": 1794595106744
     }
   },
-  "updated_at": "2026-11-13 20:17",
+  "updated_at": "2026-11-13 21:38",
   "breakevens": 0,
   "exec": {
-    "wins": 46,
-    "losses": 88,
+    "wins": 47,
+    "losses": 89,
     "breakevens": 0,
-    "net_r": 9.685,
-    "count": 134
+    "net_r": 9.78,
+    "count": 136
   },
   "watch": {
     "wins": 35,
