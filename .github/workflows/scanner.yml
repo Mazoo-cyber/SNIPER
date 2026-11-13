@@ -20,6 +20,10 @@ on:
           - scan
           - confirm
           - reset
+      capital:
+        description: 'رأس المال بالدولار (اختياري — لتحديده عند الريست أو تغييره)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -45,6 +49,7 @@ jobs:
         env:
           TZ: Asia/Riyadh
           SCAN_MODE: ${{ github.event.inputs.mode || 'auto' }}
+          SCAN_CAPITAL: ${{ github.event.inputs.capital || '' }}
           SCHEDULE_CRON: ${{ github.event.schedule || '' }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
