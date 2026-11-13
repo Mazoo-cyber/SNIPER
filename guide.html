@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>📖 دليل تثبيت ونشر ماسح بايننس — خطوة بخطوة</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "Segoe UI", Tahoma, "Noto Kufi Arabic", "Cairo", sans-serif; background: #0b1420; color: #e7eef7; line-height: 2; padding: 0 0 80px; }
+  .hero { background: linear-gradient(160deg, #0d1b2e 0%, #12263f 60%, #1a3a5c 100%); padding: 48px 20px 36px; text-align: center; border-bottom: 3px solid #d97706; }
+  .hero h1 { font-size: 30px; margin-bottom: 10px; }
+  .hero .sub { color: #9ecbff; font-size: 17px; }
+  .hero .badge { display: inline-block; background: #d97706; color: #fff; border-radius: 999px; padding: 4px 16px; font-size: 13px; font-weight: 700; margin: 12px 4px 0; }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+  .card { background: #102033; border: 1px solid #24405f; border-radius: 14px; padding: 24px 22px; margin: 22px 0; }
+  .card h2 { font-size: 22px; margin-bottom: 14px; color: #fbbf24; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .card h3 { font-size: 17px; margin: 18px 0 8px; color: #93c5fd; }
+  .stepnum { background: linear-gradient(180deg, #f59e0b, #b45309); color: #fff; width: 40px; height: 40px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 19px; font-weight: 800; flex: 0 0 auto; }
+  ul, ol { padding-right: 24px; }
+  li { margin: 6px 0; }
+  .tip, .warn, .ok, .info { border-radius: 10px; padding: 12px 16px; margin: 14px 0; font-size: 15px; }
+  .tip { background: #0c2e22; border: 1px solid #14532d; }
+  .warn { background: #2c1a08; border: 1px solid #92400e; }
+  .ok { background: #0c2417; border: 1px solid #166534; }
+  .info { background: #0c2233; border: 1px solid #1e4f74; }
+  code, .kbd { background: #1a2f47; border: 1px solid #2f5a86; border-radius: 6px; padding: 2px 9px; font-size: 14px; direction: ltr; display: inline-block; color: #bfdbfe; font-family: "Courier New", monospace; }
+  .path { direction: ltr; display: inline-block; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 14.5px; }
+  th, td { border: 1px solid #26456a; padding: 9px 12px; text-align: right; }
+  th { background: #16304c; color: #9ecbff; }
+  tr:nth-child(even) td { background: #0e1d2e; }
+  .btn { display: inline-block; background: linear-gradient(180deg, #2563eb, #1d4ed8); color: #fff; padding: 8px 20px; border-radius: 8px; text-decoration: none; font-weight: 700; margin: 6px 0; }
+  .flow { background: #0a1826; border: 1px dashed #2f5a86; border-radius: 12px; padding: 18px; text-align: center; font-size: 15.5px; margin: 14px 0; }
+  .flow .arrow { color: #f59e0b; font-size: 20px; display: block; margin: 4px 0; }
+  .box-row { display: flex; gap: 12px; flex-wrap: wrap; }
+  .box { flex: 1 1 240px; background: #0d2033; border: 1px solid #24405f; border-radius: 10px; padding: 14px 16px; }
+  .box b { color: #fbbf24; display: block; margin-bottom: 6px; }
+  details { background: #0e1f31; border: 1px solid #24405f; border-radius: 10px; padding: 12px 16px; margin: 10px 0; }
+  summary { cursor: pointer; font-weight: 700; color: #93c5fd; font-size: 15.5px; }
+  details p, details li { font-size: 14.5px; color: #cfe3f7; }
+  .footnote { text-align: center; color: #6d92b8; font-size: 13px; margin-top: 30px; }
+  .imglike { background: #08111f; border: 1px solid #2c4c72; border-radius: 10px; padding: 14px; margin: 12px 0; font-family: "Courier New", monospace; font-size: 13.5px; direction: ltr; text-align: center; color: #9ecbff; line-height: 1.9; }
+  a { color: #60a5fa; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>📖 دليل تثبيت ونشر ماسح بايننس</h1>
+  <div class="sub">خطوة بخطوة بالصور والشرح المبسّط — لا تحتاج أي خبرة برمجية</div>
+  <div class="badge">⏱ مدة التنفيذ: 15–25 دقيقة</div>
+  <div class="badge">🖥 لا يحتاج جهاز كمبيوتر — يكفي المتصفح</div>
+  <div class="badge">📱 يعمل على أندرويد وآيفون</div>
+</div>
+
+<div class="wrap">
+
+<!-- ==================== الصورة الكبيرة ==================== -->
+<div class="card">
+  <h2>🧭 أولاً: ماذا سننجز؟ (الصورة الكبيرة)</h2>
+  <p>سنحوّل المشروع الموجود في ملفاتك إلى <strong>نظام يعمل على الإنترنت تلقائياً</strong>، و<b>تطبيق على جوالك</b>. هذا ما سيحدث:</p>
+  <div class="flow">
+    <b style="color:#fbbf24">GitHub (مجاني)</b> — الملفات تعيش هنا + محرك المسح يعمل تلقائياً كل يوم
+    <span class="arrow">⬇</span>
+    <b style="color:#93c5fd">GitHub Pages (مجاني)</b> — تقريرك على الإنترنت: <span class="path">https://اسمك.github.io/sniper/</span>
+    <span class="arrow">⬇</span>
+    <b style="color:#86efac">تطبيق الموبايل</b> — أيقونة على شاشة جوالك تفتح التقرير مباشرة
+    <span class="arrow">⬇</span>
+    <b style="color:#fca5a5">تيليجرام (اختياري)</b> — إشعار فوري بعد كل مسح — يمكنك تفعيله لاحقاً إن أردت
+  </div>
+  <div class="info">💡 <b>مبدأ العمل:</b> أنت لا تشغّل شيئاً بنفسك كل يوم. الخادم المجاني (GitHub Actions) يشغّل المسح تلقائياً حسب الجدول الذي تحدده، وينشر التقرير، ويرسل لك الإشعارات. دورك: مراقبة التقرير من جوالك والضغط على الأزرار عند الحاجة.</div>
+</div>
+
+<!-- ==================== المتطلبات ==================== -->
+<div class="card">
+  <h2>🧰 ثانياً: ماذا تحتاج قبل البدء؟</h2>
+  <div class="box-row">
+    <div class="box"><b>1️⃣ حساب GitHub</b> قلتَ إنه جاهز ✅ — سجّل الدخول به على <span class="path">github.com</span></div>
+    <div class="box"><b>2️⃣ حساب تيليجرام</b> على نفس الجوال (للإشعارات) — مجاني</div>
+    <div class="box"><b>3️⃣ الملفات</b> ملف مضغوط جاهز ستنزّله من هذه الصفحة — ابحث عن <code>Sniper_v4.1_جاهز_للرفع.zip</code></div>
+  </div>
+</div>
+
+<!-- ==================== الخطوة 1 ==================== -->
+<div class="card">
+  <h2><span class="stepnum">1</span> إنشاء المستودع (Repository) على GitHub</h2>
+  <p>المستودع = مجلدك الخاص على الإنترنت.</p>
+  <ol>
+    <li>افتح <span class="path">https://github.com</span> وسجّل الدخول.</li>
+    <li>اضغط زر <b style="color:#86efac">＋</b> في أعلى يمين الصفحة ← اختر <b>New repository</b>.</li>
+    <li>في صفحة الإنشاء املأ الحقول كالتالي:
+      <table>
+        <tr><th>الحقل</th><th>ماذا تكتب</th></tr>
+        <tr><td>Repository name</td><td><code>sniper</code> (أو أي اسم بالإنجليزي بدون مسافات)</td></tr>
+        <tr><td>Description</td><td>اختياري — مثلاً: ماسح عقود بايننس الآجلة</td></tr>
+        <tr><td>Public / Private</td><td>✅ <b>Public</b> (كما اخترت — مجاني ويعمل التقرير)</td></tr>
+        <tr><td>Add a README</td><td>✅ ضع علامة ✓ (مهم)</td></tr>
+      </table>
+    </li>
+    <li>اضغط الزر الأخضر <b style="color:#86efac">Create repository</b>.</li>
+  </ol>
+  <div class="tip">💡 ستظهر لك صفحة المستودع الجديدة فارغة تقريباً وفيها ملف README. هذا طبيعي — سنملؤها في الخطوة التالية.</div>
+</div>
+
+<!-- ==================== الخطوة 2 ==================== -->
+<div class="card">
+  <h2><span class="stepnum">2</span> رفع ملفات المشروع</h2>
+  <ol>
+    <li>من مساحة العمل: نزّل الملف المضغوط <code>Sniper_v4.1_جاهز_للرفع.zip</code> و<strong>فك ضغطه</strong> على جهازك (زر سحب الملفات للتنزيل يظهر عند فتح الملف).</li>
+    <li>عد إلى صفحة المستودع على GitHub ← اضغط <b>Add file</b> (زر بجانب زر القوس الأخضر) ← <b>Upload files</b>.</li>
+    <li><strong>اسحب محتوى المجلد المفكوك</strong> (كل الملفات والمجلدات) وأفلتها في صفحة الرفع.</li>
+    <li>انتظر حتى يرتفع كل شيء (قد يستغرق دقيقة تقريباً — حوالي 20 ملف).</li>
+    <li>قبل الضغط على الحفظ، <b>تحقق من القائمة</b> أنك ترى:
+      <div class="imglike">.github/ ← scanner.yml داخله ✓<br>binance_scanner_standalone.py ✓<br>cloud_entry.py ✓&nbsp;&nbsp; index.html ✓&nbsp;&nbsp; history/ ✓<br>manifest.json ✓&nbsp;&nbsp; sw.js ✓&nbsp;&nbsp; icon-512.png ✓ ...</div>
+    </li>
+    <li>اضغط <b style="color:#86efac">Commit changes</b> ← اختر <b>Commit directly to the main branch</b> ← اضغط الزر الأخضر.</li>
+  </ol>
+  <div class="warn">⚠️ <b>إن لم تظهر مجلدات تبدأ بنقطة مثل <code>.github</code>:</b> بعض المتصفحات لا تسحبها تلقائياً. الحل: أنشئ الملف يدوياً كما في قسم «الرفع من الجوال» بالأسفل (اكتب المسار كاملاً <code class="path">.github/workflows/scanner.yml</code> عند إنشاء ملف جديد وسيُنشئ GitHub المجلدات).</div>
+
+  <h3>📱 الرفع من الجوال (إن لم يكن لديك كمبيوتر)</h3>
+  <p>الرفع يكون من <b>الموقع</b> (github.com في متصفح الجوال) — تطبيق أندرويد الرسمي ليس أداة رفع. الخطوات:</p>
+  <ol>
+    <li>نزّل الحزمة <code>Sniper_v4.1_جاهز_للرفع.zip</code> وفك ضغطها بتطبيق الملفات (أي مدير ملفات يدعم ZIP).</li>
+    <li>في متصفح الجوال: أنشئ المستودع (الخطوة 1) ← <b>Add file</b> ← <b>Upload files</b>.</li>
+    <li>اضغط «اختيار ملفات» ← <b>حدّد كل ملفات الجذر دفعة واحدة</b> (الضغط المطوّل للاختيار المتعدد — حوالي 28 ملفاً مثل <code>index.html</code> و<code>binance_scanner_standalone.py</code> و<code>icon-512.png</code> وملفات <code>.json</code>...) ← ارفعها واحفظ.</li>
+    <li>ملف التشغيل التلقائي يُنشأ يدوياً: <b>Add file</b> ← <b>Create new file</b> ← في خانة الاسم اكتب المسار كاملاً: <code class="path">.github/workflows/scanner.yml</code> ← الصق المحتوى من الإطار بالأسفل ← <b>Commit changes</b>.</li>
+    <li>مجلد <code>history/</code> لا داعي لرفعه — يُنشأ تلقائياً من أول مسح.</li>
+    <li>تابع بقية الخطوات (Pages...إلخ) من نفس المتصفح.</li>
+  </ol>
+  <div class="info">💡 <b>محتوى ملف <code class="path">.github/workflows/scanner.yml</code> — انسخه كما هو:</b>
+    <div class="imglike" style="text-align:left;white-space:pre;overflow-x:auto;font-size:12px;line-height:1.6">name: Binance Futures Scanner (Riyadh Schedule)
+
+on:
+  schedule:
+    - cron: '45 23 * * *'
+    - cron: '5 0 * * *'
+    - cron: '5 8 * * *'
+    - cron: '5 12 * * *'
+    - cron: '5 16 * * *'
+    - cron: '5 20 * * *'
+
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'نوع التشغيل اليدوي'
+        required: true
+        default: 'scan'
+        type: choice
+        options:
+          - scan
+          - confirm
+          - reset
+
+permissions:
+  contents: write
+
+concurrency:
+  group: binance-scanner
+  cancel-in-progress: false
+
+jobs:
+  run-scanner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Binance Futures Engine
+        env:
+          TZ: Asia/Riyadh
+          SCAN_MODE: ${{ github.event.inputs.mode || 'auto' }}
+          SCHEDULE_CRON: ${{ github.event.schedule || '' }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 cloud_entry.py
+
+      - name: Save updated report &amp; state
+        run: |
+          git config user.name "Binance-Scanner-Bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add index.html *.json 2>/dev/null || true
+          git add -A -- history/ 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "تحديث التقرير الآلي $(TZ=Asia/Riyadh date '+%Y-%m-%d %H:%M')"
+            git pull --rebase -X theirs origin main || true
+            git push origin HEAD:main
+          fi</div>
+  </div>
+</div>
+
+<!-- ==================== الخطوة 3 ==================== -->
+<div class="card">
+  <h2><span class="stepnum">3</span> تفعيل موقع التقرير (GitHub Pages)</h2>
+  <p>بهذه الخطوة يصبح تقريرك <strong>موقعاً على الإنترنت</strong> يفتحه أي جوال.</p>
+  <ol>
+    <li>في المستودع ← <b>Settings</b> (تبويب أعلى).</li>
+    <li>في القائمة الجانبية اليسرى ← <b>Pages</b>.</li>
+    <li>تحت <b>Build and deployment</b> ← المصدر (Source): <b>Deploy from a branch</b>.</li>
+    <li>تحت <b>Branch</b> ← اختر <b>main</b> ← المجلد: <b>/(root)</b> ← اضغط <b>Save</b>.</li>
+    <li>انتظر <b>1–3 دقائق</b> ثم افتح الرابط الذي يظهر أعلى الصفحة (أو مباشرة):
+      <div class="imglike">https://اسم-المستخدم.github.io/sniper/</div>
+      استبدل <span class="path">اسم-المستخدم</span> باسم حسابك على GitHub (تراه أعلى يمين موقع GitHub).
+    </li>
+  </ol>
+  <div class="ok">✅ إن فتح التقرير على جوالك — تهانئ! النصف الأكبر اكتمل. باقي: الإشعارات + تثبيت التطبيق.</div>
+</div>
+
+<!-- ==================== الخطوة 4 ==================== -->
+<div class="card">
+  <h2><span class="stepnum">4</span> إنشاء بوت تيليجرام وربطه — <span style="color:#94a3b8;font-size:17px">(اختياري — يمكنك التخطي)</span></h2>
+  <div class="info">⏭ <b>لا تريد تيليجرام الآن؟ لا مشكلة إطلاقاً.</b> النظام والتطبيق يعملان بالكامل بدونه — تخطَّ هذه الخطوة وانتقل للخطوة 5. الإشعارات ستكون عبر التطبيق نفسه (تفتحه فترى كل جديد)، ويمكنك تفعيل تيليجرام في أي وقت لاحق بالعودة لهذه الخطوة.</div>
+  <div class="tip">💡 <b>بديل خفيف للمتابعة:</b> نزّل تطبيق <b>GitHub</b> الرسمي من متجر التطبيقات وسجّل الدخول — سيصلك إشعار عند كل تشغيل آلي وتتابع حالة المسحات منه مباشرة.</div>
+  <p>البوت يرسل لك ملخص كل مسح وتنبيهات الصفقات <strong>مباشرة على جوالك</strong>.</p>
+  <h3>4-1) إنشاء البوت (دقيقتان)</h3>
+  <ol>
+    <li>افتح تيليجرام ← ابحث عن <span class="path">@BotFather</span> ← اضغط <b>Start</b>.</li>
+    <li>أرسل له: <code>/newbot</code></li>
+    <li>سيسألك عن <b>اسم البوت</b> — اكتب مثلاً: <code>ماسح بايننس</code></li>
+    <li>ثم عن <b>اسم المستخدم (username)</b> — يجب أن ينتهي بكلمة <code>bot</code> مثل: <code>my_sniper_bot</code></li>
+    <li>سيرد عليك برسالة فيها <b>التوكن (Token)</b> — يشبه:
+      <div class="imglike">7012345678:AAFxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+      <b>انسخه واحفظه</b> (لا تشاركه مع أحد).
+    </li>
+  </ol>
+  <h3>4-2) معرفة رقم الدردشة (Chat ID)</h3>
+  <ol>
+    <li>أرسل للبوت الذي أنشأته أي كلمة (مثل: <code>مرحبا</code>) — هذه خطوة مهمة.</li>
+    <li>افتح هذا الرابط في المتصفح (استبدل التوكن بالتوكن الخاص بك):
+      <div class="imglike">https://api.telegram.org/bot<b>التوكن-الخاص-بك</b>/getUpdates</div>
+    </li>
+    <li>ستظهر نصوص كثيرة — ابحث عن جملة تشبه <code>"chat":{"id":5581234567</code> — <b>الرقم هذا هو Chat ID</b> (قد يكون موجباً أو سالباً). انسخه.</li>
+  </ol>
+  <h3>4-3) وضع السريين في GitHub</h3>
+  <ol>
+    <li>في المستودع ← <b>Settings</b> ← من القائمة اليسرى: <b>Secrets and variables</b> ← <b>Actions</b>.</li>
+    <li>اضغط الزر الأخضر <b>New repository secret</b> وأضف سريين:</li>
+  </ol>
+  <table>
+    <tr><th>الاسم (Name)</th><th>القيمة (Secret)</th></tr>
+    <tr><td><code>TELEGRAM_BOT_TOKEN</code></td><td>التوكن من BotFather</td></tr>
+    <tr><td><code>TELEGRAM_CHAT_ID</code></td><td>رقم الدردشة</td></tr>
+  </table>
+  <div class="tip">💡 لا تقلق — «السري» في GitHub يعني القيمة المخفية عن أعين الزوار. مستودعك عام لكن هذه القيم لن يراها أحد.</div>
+</div>
+
+<!-- ==================== الخطوة 5 ==================== -->
+<div class="card">
+  <h2><span class="stepnum">5</span> أول تشغيل — شغّل المسح الآن</h2>
+  <ol>
+    <li>في المستودع ← تبويب <b>Actions</b> (إذا ظهر لك زر <b>I understand my workflows, go ahead and enable them</b> فاضغطه).</li>
+    <li>من القائمة اليسرى اختر <b>Binance Futures Scanner (Riyadh Schedule)</b>.</li>
+    <li>اضغط <b>Run workflow</b> ← اترك النوع <code>scan</code> ← اضغط الزر الأخضر <b>Run workflow</b>.</li>
+    <li>ستظهر دورة صفراء «قيد التنفيذ» ← اضغط عليها وراقب الخطوات (دقيقة إلى 3 دقائق).</li>
+    <li>عند اكتمالها:
+      <ul>
+        <li>🌐 افتح رابط التقرير (أو التطبيق المثبّت) ← ستراه محدّثاً ببيانات حقيقية.</li>
+        <li>📱 إن فعّلت تيليجرام لاحقاً ستصلك رسالة ملخص بعد كل مسح تلقائياً.</li>
+      </ul>
+    </li>
+  </ol>
+  <div class="warn">⚠️ إن كان المسح أحمر (فشل): اضغط على الدورة واقرأ آخر رسالة حمراء — غالباً سببها ملف مرفوع في مكان خاطئ. أعد رفع الملف الناقص وشغّل مرة أخرى. يمكنك أيضاً متابعة حالة كل تشغيل من تطبيق GitHub الرسمي.</div>
+</div>
+
+<!-- ==================== الخطوة 6 ==================== -->
+<div class="card">
+  <h2><span class="stepnum">6</span> تثبيت التطبيق على جوالك 📲</h2>
+  <p>التقرير هو التطبيق! بتثبيته يظهر كأيقونة حقيقية على شاشتك الرئيسية يفتحه بنقرة واحدة.</p>
+
+  <h3>🤖 على أندرويد (متصفح Chrome)</h3>
+  <ol>
+    <li>افتح رابط التقرير في Chrome.</li>
+    <li>سيظهر لك شريط سفلي عائم: <b>📲 ثبّت التطبيق على جوالك الآن</b> — اضغطه، ثم اضغط <b>Install / تثبيت</b>.</li>
+    <li>أو يدوياً: اضغط قائمة المتصفح <b>⋮</b> ← <b>تثبيت التطبيق</b> (Install app) ← <b>تثبيت</b>.</li>
+    <li>ستظهر أيقونة <b>التصويب الذهبي</b> 🎯 على شاشتك الرئيسية — اضغطها وستفتح التطبيق في نافذة مستقلة تماماً كأي تطبيق.</li>
+  </ol>
+
+  <h3>🍎 على آيفون (متصفح Safari)</h3>
+  <ol>
+    <li>افتح رابط التقرير في <b>Safari</b> (مهم — غير Safari لا يدعم التثبيت).</li>
+    <li>اضغط زر <b>المشاركة ⬆️</b> في أسفل الشاشة.</li>
+    <li>اختر من القائمة: <b>«إضافة إلى الشاشة الرئيسية»</b> (Add to Home Screen).</li>
+    <li>اضغط <b>«إضافة»</b> في أعلى يمين الشاشة.</li>
+    <li>ستظهر الأيقونة 🎯 على شاشتك.</li>
+  </ol>
+
+  <div class="ok">✅ بعد التثبيت: التطبيق يعمل بملء الشاشة، ويحتفظ بآخر تقرير حتى بدون إنترنت (يعرض آخر نسخة محفوظة)، وعند توفر إنترنت يتحدث تلقائياً.</div>
+</div>
+
+<!-- ==================== الأزرار ==================== -->
+<div class="card">
+  <h2>🎮 الاستخدام اليومي — الأزرار في أعلى التطبيق</h2>
+  <table>
+    <tr><th>الزر</th><th>وظيفته</th><th>متى تستخدمه</th></tr>
+    <tr><td>🔄 <b>ابدأ المسح الآن</b></td><td>يشغّل مسحاً جديداً فوراً ويحدّث التقرير</td><td>كلما أردت تحديثاً فورياً خارج الجدول</td></tr>
+    <tr><td>✅ <b>فحص تأكيد 02:45</b></td><td>يحدّث المراكز المفتوحة وينفّذ منطق التأكيد الليلي</td><td>مرة يومياً بعد 02:45 بتوقيت الرياض (يُنفَّذ آلياً أيضاً)</td></tr>
+    <tr><td>🗑️ <b>ريست: مسح كل الصفقات</b></td><td>يمسح كل الصفقات والتاريخ ويجهّز النظام للتسجيل من الصفر</td><td>عندما تريد البدء من جديد (سيسألك للتأكيد)</td></tr>
+    <tr><td>↻ <b>تحديث الصفحة</b></td><td>يعيد تحميل التقرير</td><td>لمشاهدة أحدث نسخة</td></tr>
+    <tr><td>⚙️ <b>إعداد الضغطة الواحدة</b></td><td>يحفظ إعداد الاتصال (مرة واحدة فقط)</td><td>أول مرة — انظر الأسفل</td></tr>
+  </table>
+
+  <h3>⚙️ إعداد الأزرار لتعمل من التطبيق (مرة واحدة فقط)</h3>
+  <p>الأزرار أعلاه تعمل عن طريق إرسال أوامر إلى GitHub — وهذا يحتاج <b>رمز وصول شخصي (PAT)</b> تدخله مرة واحدة:</p>
+  <ol>
+    <li>على المتصفح (أي جهاز) افتح: <span class="path">https://github.com/settings/tokens</span> (وأنت مسجّل الدخول).</li>
+    <li>اضغط <b>Generate new token</b> ← <b>Generate new token (classic)</b>.</li>
+    <li>في Note اكتب: <code>sniper</code> ← في Expiration اختر <b>No expiration</b> (أو سنة).</li>
+    <li>ضع علامة ✓ أمام <b>repo</b> (القسم الأول فقط يكفي).</li>
+    <li>اسحب لأسفل ← <b>Generate token</b> ← انسخ الرمز (يبدأ بـ <code>ghp_</code>) — لا يظهر مرة ثانية.</li>
+    <li>افتح التقرير ← اضغط ⚙️ <b>إعداد الضغطة الواحدة</b> ← الصق الرمز في الخانة ← اضغط <b>حفظ</b>.</li>
+  </ol>
+  <div class="tip">💡 الاسم والإيميل اللذان يظهران في الخانات يملآن تلقائياً — اتركهما كما هما. الرمز يُحفظ داخل متصفحك فقط ولا يظهر لأحد.</div>
+</div>
+
+<!-- ==================== الجدولة ==================== -->
+<div class="card">
+  <h2>⏰ الجدول التلقائي — متى يعمل المسح؟</h2>
+  <p>يعمل النظام تلقائياً في هذه الأوقات (بتوقيت الرياض) — وهي مضبوطة على أهم فترات السوق (حول إغلاق نيويورك):</p>
+  <table>
+    <tr><th>الوقت (الرياض)</th><th>الوظيفة</th></tr>
+    <tr><td>🕙 11:05 صباحاً</td><td>مسح روتيني</td></tr>
+    <tr><td>🕒 3:05 مساءً</td><td>مسح روتيني</td></tr>
+    <tr><td>🕖 7:05 مساءً</td><td>مسح روتيني</td></tr>
+    <tr><td>🕚 11:05 مساءً</td><td>مسح روتيني</td></tr>
+    <tr><td>🌙 2:45 بعد منتصف الليل</td><td>✅ فحص التأكيد الليلي (تُحدَّث المراكز المفتوحة)</td></tr>
+    <tr><td>🌙 3:05 بعد منتصف الليل</td><td>مسح روتيني</td></tr>
+  </table>
+  <h3>كيف أغيّر الجدول؟</h3>
+  <p>في ملف <code class="path">.github/workflows/scanner.yml</code> تجد سطور <code>cron</code> — كل سطر بصيغة <code>دقيقة ساعة * * *</code> <b>بتوقيت UTC</b> (الرياض = UTC + 3 ساعات). مثال: لتضيف مسحاً عند 1:00 ليلاً بتوقيت الرياض (22:00 UTC) أضف سطراً: <code>0 22 * * *</code></p>
+  <div class="warn">⚠️ <b>ملاحظة مطمئنة:</b> GitHub أحياناً يؤخر التنفيذ 5–20 دقيقة وقت الازدحام. النظام ذكي ويعرف «الموعد المخطط» فيتعامل مع التأخير دون مشاكل.</div>
+</div>
+
+<!-- ==================== FAQ ==================== -->
+<div class="card">
+  <h2>🛠 استكشاف الأخطاء الشائعة</h2>
+
+  <details><summary>❌ لم تصل رسالة تيليجرام بعد التشغيل</summary>
+    <ul>
+      <li>تأكد أنك أرسلت للبوت كلمة واحدة على الأقل قبل جلب الـChat ID.</li>
+      <li>اسم السر يجب أن يكون بالضبط: <code>TELEGRAM_BOT_TOKEN</code> (حروف كبيرة).</li>
+      <li>أعد نسخ التوكن من BotFather (أمر <code>/token</code> يعطيك توكن جديد).</li>
+      <li>شغّل المسح مرة أخرى من Actions وراقب سجل التنفيذ — سطر <code>Telegram notification sent</code> يعني النجاح.</li>
+    </ul>
+  </details>
+
+  <details><summary>❌ التقرير لا يفتح أو صفحة 404</summary>
+    <ul>
+      <li>تأكد أن GitHub Pages مفعّل (Settings ← Pages ← main ← Save).</li>
+      <li>تأكد أن اسم المستخدم والمستودع صحيحان في الرابط.</li>
+      <li>أول مرة قد تنتظر 5 دقائق ثم أعد المحاولة.</li>
+    </ul>
+  </details>
+
+  <details><summary>❌ زر «ابدأ المسح الآن» لا يعمل</summary>
+    <ul>
+      <li>هذا الزر يحتاج إعداد ⚙️ (رمز PAT) — راجع قسم «إعداد الضغطة الواحدة».</li>
+      <li>تأكد أن الرابط في الإعداد هو <code>اسمك/sniper</code> (المالك/المستودع).</li>
+      <li>بديل مؤقت: شغّل المسح من تبويب Actions مباشرة.</li>
+    </ul>
+  </details>
+
+  <details><summary>❌ ظهرت رسالة «الخطوة المطلوبة قديمة» في التقرير</summary>
+    <p>هذه رسالة وقائية تظهر إذا مضت أكثر من ساعة على آخر مسح. شغّل المسح الجديد وستختفي. قد تظهر أيضاً إذا كان الجدول خارج ساعات عمل النظام المتوقعة — طبيعية ولا تدل على عطل.</p>
+  </details>
+
+  <details><summary>❌ التطبيق المثبّت يعرض بيانات قديمة</summary>
+    <p>اسحب للأسفل داخل التطبيق للتحديث (أو اضغط ↻ تحديث الصفحة). بدون إنترنت يعرض آخر نسخة محفوظة — وهذا مقصود.</p>
+  </details>
+
+  <details><summary>❌ أريد البدء من الصفر وإعادة ضبط كل شيء</summary>
+    <p>اضغط زر 🗑️ <b>ريست: مسح كل الصفقات</b> في أعلى التطبيق ← أكّد. ستمسح كل الصفقات والسجل التراكمي والأرشيف، ويبقى النظام جاهزاً لتسجيل الصفقات الجديدة من المسح القادم.</p>
+  </details>
+
+  <details><summary>❓ هل أستطيع تغيير اسم التطبيق على شاشة الجوال؟</summary>
+    <p>نعم — الاسم يظهر من ملف <code>manifest.json</code> (الحقل <code>short_name</code>). عدّله وارفعه مرة أخرى. على الآيفون يمكنك تغيير الاسم عند الإضافة للشاشة الرئيسية.</p>
+  </details>
+</div>
+
+<!-- ==================== قاموس ==================== -->
+<div class="card">
+  <h2>📚 قاموس المصطلحات (بالعربي المبسّط)</h2>
+  <table>
+    <tr><th>المصطلح</th><th>المعنى</th></tr>
+    <tr><td>GitHub</td><td>موقع مجاني يحفظ ملفاتك في «سحابة» ويشغّل برامجك تلقائياً</td></tr>
+    <tr><td>Repository (مستودع)</td><td>مجلد المشروع الخاص بك على GitHub</td></tr>
+    <tr><td>Commit (حفظ)</td><td>حفظ نسخة من الملفات — مثل «حفظ» في أي برنامج</td></tr>
+    <tr><td>GitHub Actions</td><td>الخدمة التي تشغّل المسح تلقائياً حسب الجدول — «الخادم» المجاني</td></tr>
+    <tr><td>GitHub Pages</td><td>الخدمة التي تعرض التقرير كموقع على الإنترنت مجاناً</td></tr>
+    <tr><td>Secret (سر)</td><td>قيمة مخفية (توكن البوت مثلاً) لا يراها زوار المستودع</td></tr>
+    <tr><td>PWA</td><td>تطبيق ويب يُثبَّت من المتصفح كتطبيق عادي على الجوال</td></tr>
+    <tr><td>PAT</td><td>رمز وصول شخصي — «مفتاح» يسمح لأزرار التقرير بالتحكم في GitHub</td></tr>
+    <tr><td>cron</td><td>سطر يحدد موعد التشغيل التلقائي</td></tr>
+    <tr><td>Workflow / سير العمل</td><td>الملف الذي يصف خطوات التشغيل الآلي (scanner.yml)</td></tr>
+  </table>
+</div>
+
+<div class="footnote">
+  📖 دليل ماسح عقود بايننس الآجلة — Sniper v4.1 · مُعدّ للاستخدام الشخصي<br>
+  ⚠️ تنبيه: هذا النظام أداة تحليل مساعدة وليس نصيحة استثمارية — استخدم إدارة مخاطر صارمة.
+</div>
+
+</div>
+</body>
+</html>
