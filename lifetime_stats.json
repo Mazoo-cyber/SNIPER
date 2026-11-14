@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 25,
-  "losses": 11,
+  "wins": 30,
+  "losses": 12,
   "breakevens": 0,
-  "net_r": 42.066,
+  "net_r": 55.16,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -328,21 +328,75 @@
       "r": -1.036,
       "book": "watch",
       "ts": 1794688891479
+    },
+    "AVAXUSDT|SHORT|1794607971558": {
+      "sym": "AVAXUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.674,
+      "book": "watch",
+      "ts": 1794691977951
+    },
+    "GRASSUSDT|SHORT|1794617879001": {
+      "sym": "GRASSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.512,
+      "book": "exec",
+      "ts": 1794691977951
+    },
+    "PLUMEUSDT|SHORT|1794646021171": {
+      "sym": "PLUMEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 3.302,
+      "book": "watch",
+      "ts": 1794691977951
+    },
+    "HUMAUSDT|SHORT|1794658520456": {
+      "sym": "HUMAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.584,
+      "book": "watch",
+      "ts": 1794691977951
+    },
+    "ICPUSDT|SHORT|1794658520456": {
+      "sym": "ICPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 3.063,
+      "book": "watch",
+      "ts": 1794691977951
+    },
+    "NIGHTUSDT|LONG|1794660646545": {
+      "sym": "NIGHTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.041,
+      "book": "watch",
+      "ts": 1794691977951
     }
   },
   "exec": {
-    "wins": 1,
+    "wins": 2,
     "losses": 0,
     "breakevens": 0,
-    "net_r": 2.438,
-    "count": 1
+    "net_r": 4.95,
+    "count": 2
   },
   "watch": {
-    "wins": 24,
-    "losses": 11,
+    "wins": 28,
+    "losses": 12,
     "breakevens": 0,
-    "net_r": 39.628,
-    "count": 35
+    "net_r": 50.21,
+    "count": 40
   },
-  "updated_at": "2026-11-14 23:41"
+  "updated_at": "2026-11-15 00:32"
 }
