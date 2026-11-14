@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 1,
-  "losses": 3,
+  "losses": 4,
   "breakevens": 0,
-  "net_r": -1.449,
+  "net_r": -2.48,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -40,6 +40,15 @@
       "r": -1.047,
       "book": "watch",
       "ts": 1794646025992
+    },
+    "BMTUSDT|SHORT|1794646021171": {
+      "sym": "BMTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.031,
+      "book": "watch",
+      "ts": 1794658524894
     }
   },
   "exec": {
@@ -51,10 +60,10 @@
   },
   "watch": {
     "wins": 1,
-    "losses": 3,
+    "losses": 4,
     "breakevens": 0,
-    "net_r": -1.449,
-    "count": 4
+    "net_r": -2.48,
+    "count": 5
   },
-  "updated_at": "2026-11-14 11:47"
+  "updated_at": "2026-11-14 15:15"
 }
