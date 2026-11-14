@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 1,
-  "losses": 4,
+  "wins": 11,
+  "losses": 6,
   "breakevens": 0,
-  "net_r": -2.48,
+  "net_r": 17.059,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -49,6 +49,114 @@
       "r": -1.031,
       "book": "watch",
       "ts": 1794658524894
+    },
+    "FILUSDT|SHORT|1794607971558": {
+      "sym": "FILUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.288,
+      "book": "watch",
+      "ts": 1794674286782
+    },
+    "CRVUSDT|SHORT|1794607971558": {
+      "sym": "CRVUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.334,
+      "book": "watch",
+      "ts": 1794674286782
+    },
+    "RENDERUSDT|SHORT|1794612769817": {
+      "sym": "RENDERUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.445,
+      "book": "watch",
+      "ts": 1794674286782
+    },
+    "1000SHIBUSDT|SHORT|1794646021171": {
+      "sym": "1000SHIBUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.697,
+      "book": "watch",
+      "ts": 1794674286782
+    },
+    "BNBUSDT|SHORT|1794646021171": {
+      "sym": "BNBUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.085,
+      "book": "watch",
+      "ts": 1794674286782
+    },
+    "EIGENUSDT|SHORT|1794646021171": {
+      "sym": "EIGENUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.386,
+      "book": "watch",
+      "ts": 1794674286782
+    },
+    "ETCUSDT|SHORT|1794646021171": {
+      "sym": "ETCUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.18,
+      "book": "watch",
+      "ts": 1794674286782
+    },
+    "WIFUSDT|SHORT|1794646021171": {
+      "sym": "WIFUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.27,
+      "book": "watch",
+      "ts": 1794674286782
+    },
+    "INJUSDT|LONG|1794646021171": {
+      "sym": "INJUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.027,
+      "book": "watch",
+      "ts": 1794674286782
+    },
+    "BTCUSDT|SHORT|1794646021171": {
+      "sym": "BTCUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.597,
+      "book": "watch",
+      "ts": 1794674286782
+    },
+    "PENGUUSDT|SHORT|1794658520456": {
+      "sym": "PENGUUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.308,
+      "book": "watch",
+      "ts": 1794674286782
+    },
+    "JUPUSDT|LONG|1794660646545": {
+      "sym": "JUPUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.024,
+      "book": "watch",
+      "ts": 1794674286782
     }
   },
   "exec": {
@@ -59,11 +167,11 @@
     "count": 0
   },
   "watch": {
-    "wins": 1,
-    "losses": 4,
+    "wins": 11,
+    "losses": 6,
     "breakevens": 0,
-    "net_r": -2.48,
-    "count": 5
+    "net_r": 17.059,
+    "count": 17
   },
-  "updated_at": "2026-11-14 15:50"
+  "updated_at": "2026-11-14 19:38"
 }
