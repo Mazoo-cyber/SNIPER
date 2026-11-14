@@ -1,10 +1,47 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 0,
-  "losses": 0,
+  "wins": 1,
+  "losses": 3,
   "breakevens": 0,
-  "net_r": 0,
-  "counted": {},
+  "net_r": -1.449,
+  "counted": {
+    "HOTUSDT|LONG|1794607971558": {
+      "sym": "HOTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.036,
+      "book": "watch",
+      "ts": 1794646025992
+    },
+    "VELVETUSDT|LONG|1794612769817": {
+      "sym": "VELVETUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.024,
+      "book": "watch",
+      "ts": 1794646025992
+    },
+    "ETCUSDT|SHORT|1794612769817": {
+      "sym": "ETCUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.658,
+      "book": "watch",
+      "ts": 1794646025992
+    },
+    "JUPUSDT|LONG|1794617879001": {
+      "sym": "JUPUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.047,
+      "book": "watch",
+      "ts": 1794646025992
+    }
+  },
   "exec": {
     "wins": 0,
     "losses": 0,
@@ -13,11 +50,11 @@
     "count": 0
   },
   "watch": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 1,
+    "losses": 3,
     "breakevens": 0,
-    "net_r": 0,
-    "count": 0
+    "net_r": -1.449,
+    "count": 4
   },
-  "updated_at": "2026-11-14 03:58"
+  "updated_at": "2026-11-14 11:47"
 }
