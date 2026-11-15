@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 38,
-  "losses": 36,
+  "wins": 39,
+  "losses": 38,
   "breakevens": 0,
-  "net_r": 44.131,
+  "net_r": 44.664,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -670,6 +670,33 @@
       "r": -1.036,
       "book": "watch",
       "ts": 1794760748185
+    },
+    "BRUSDT|SHORT|1794699980214": {
+      "sym": "BRUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.04,
+      "book": "watch",
+      "ts": 1794775348628
+    },
+    "TRXUSDT|SHORT|1794744498020": {
+      "sym": "TRXUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.602,
+      "book": "watch",
+      "ts": 1794775348628
+    },
+    "BANANAS31USDT|SHORT|1794744498020": {
+      "sym": "BANANAS31USDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.029,
+      "book": "watch",
+      "ts": 1794775348628
     }
   },
   "exec": {
@@ -680,11 +707,11 @@
     "count": 2
   },
   "watch": {
-    "wins": 36,
-    "losses": 36,
+    "wins": 37,
+    "losses": 38,
     "breakevens": 0,
-    "net_r": 39.181,
-    "count": 72
+    "net_r": 39.714,
+    "count": 75
   },
-  "updated_at": "2026-11-15 19:39"
+  "updated_at": "2026-11-15 23:42"
 }
