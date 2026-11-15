@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 37,
-  "losses": 20,
+  "wins": 38,
+  "losses": 28,
   "breakevens": 0,
-  "net_r": 58.426,
+  "net_r": 52.459,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -517,6 +517,87 @@
       "r": -1.042,
       "book": "watch",
       "ts": 1794732568926
+    },
+    "METUSDT|SHORT|1794704457420": {
+      "sym": "METUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.041,
+      "book": "watch",
+      "ts": 1794744502875
+    },
+    "BLESSUSDT|LONG|1794704457420": {
+      "sym": "BLESSUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.328,
+      "book": "watch",
+      "ts": 1794744502875
+    },
+    "BEATUSDT|SHORT|1794732563674": {
+      "sym": "BEATUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.034,
+      "book": "watch",
+      "ts": 1794744502875
+    },
+    "ESPORTSUSDT|SHORT|1794732563674": {
+      "sym": "ESPORTSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.036,
+      "book": "watch",
+      "ts": 1794744502875
+    },
+    "FETUSDT|SHORT|1794732563674": {
+      "sym": "FETUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.043,
+      "book": "watch",
+      "ts": 1794744502875
+    },
+    "ADAUSDT|SHORT|1794732563674": {
+      "sym": "ADAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.047,
+      "book": "watch",
+      "ts": 1794744502875
+    },
+    "VVVUSDT|SHORT|1794732563674": {
+      "sym": "VVVUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.036,
+      "book": "watch",
+      "ts": 1794744502875
+    },
+    "TACUSDT|SHORT|1794732563674": {
+      "sym": "TACUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.023,
+      "book": "watch",
+      "ts": 1794744502875
+    },
+    "CYBERUSDT|SHORT|1794732563674": {
+      "sym": "CYBERUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.035,
+      "book": "watch",
+      "ts": 1794744502875
     }
   },
   "exec": {
@@ -527,11 +608,11 @@
     "count": 2
   },
   "watch": {
-    "wins": 35,
-    "losses": 20,
+    "wins": 36,
+    "losses": 28,
     "breakevens": 0,
-    "net_r": 53.476,
-    "count": 55
+    "net_r": 47.509,
+    "count": 64
   },
-  "updated_at": "2026-11-15 11:49"
+  "updated_at": "2026-11-15 15:08"
 }
