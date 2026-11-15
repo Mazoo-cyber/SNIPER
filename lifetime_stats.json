@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 38,
-  "losses": 31,
+  "losses": 36,
   "breakevens": 0,
-  "net_r": 49.335,
+  "net_r": 44.131,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -625,6 +625,51 @@
       "r": -1.049,
       "book": "watch",
       "ts": 1794747186876
+    },
+    "TAOUSDT|SHORT|1794732563674": {
+      "sym": "TAOUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.044,
+      "book": "watch",
+      "ts": 1794760748185
+    },
+    "SOLUSDT|SHORT|1794732563674": {
+      "sym": "SOLUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.049,
+      "book": "watch",
+      "ts": 1794760748185
+    },
+    "QNTUSDT|SHORT|1794732563674": {
+      "sym": "QNTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.04,
+      "book": "watch",
+      "ts": 1794760748185
+    },
+    "VVVUSDT|SHORT|1794744498020": {
+      "sym": "VVVUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.035,
+      "book": "watch",
+      "ts": 1794760748185
+    },
+    "ESPORTSUSDT|SHORT|1794744498020": {
+      "sym": "ESPORTSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.036,
+      "book": "watch",
+      "ts": 1794760748185
     }
   },
   "exec": {
@@ -636,10 +681,10 @@
   },
   "watch": {
     "wins": 36,
-    "losses": 31,
+    "losses": 36,
     "breakevens": 0,
-    "net_r": 44.385,
-    "count": 67
+    "net_r": 39.181,
+    "count": 72
   },
-  "updated_at": "2026-11-15 15:53"
+  "updated_at": "2026-11-15 19:39"
 }
