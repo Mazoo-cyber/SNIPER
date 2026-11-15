@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 38,
-  "losses": 28,
+  "losses": 31,
   "breakevens": 0,
-  "net_r": 52.459,
+  "net_r": 49.335,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -598,6 +598,33 @@
       "r": -1.035,
       "book": "watch",
       "ts": 1794744502875
+    },
+    "PIEVERSEUSDT|LONG|1794732563674": {
+      "sym": "PIEVERSEUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.028,
+      "book": "watch",
+      "ts": 1794747186876
+    },
+    "SEIUSDT|SHORT|1794732563674": {
+      "sym": "SEIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.047,
+      "book": "watch",
+      "ts": 1794747186876
+    },
+    "1000FLOKIUSDT|SHORT|1794732563674": {
+      "sym": "1000FLOKIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.049,
+      "book": "watch",
+      "ts": 1794747186876
     }
   },
   "exec": {
@@ -609,10 +636,10 @@
   },
   "watch": {
     "wins": 36,
-    "losses": 28,
+    "losses": 31,
     "breakevens": 0,
-    "net_r": 47.509,
-    "count": 64
+    "net_r": 44.385,
+    "count": 67
   },
-  "updated_at": "2026-11-15 15:08"
+  "updated_at": "2026-11-15 15:53"
 }
