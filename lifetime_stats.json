@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 39,
-  "losses": 38,
+  "losses": 39,
   "breakevens": 0,
-  "net_r": 44.664,
+  "net_r": 43.622,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -697,6 +697,15 @@
       "r": -1.029,
       "book": "watch",
       "ts": 1794775348628
+    },
+    "ASTERUSDT|SHORT|1794775344682": {
+      "sym": "ASTERUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.042,
+      "book": "watch",
+      "ts": 1794778162122
     }
   },
   "exec": {
@@ -708,10 +717,10 @@
   },
   "watch": {
     "wins": 37,
-    "losses": 38,
+    "losses": 39,
     "breakevens": 0,
-    "net_r": 39.714,
-    "count": 75
+    "net_r": 38.672,
+    "count": 76
   },
-  "updated_at": "2026-11-15 23:42"
+  "updated_at": "2026-11-16 00:29"
 }
