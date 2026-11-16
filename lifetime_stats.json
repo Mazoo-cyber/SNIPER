@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 40,
-  "losses": 47,
+  "losses": 48,
   "breakevens": 0,
-  "net_r": 35.962,
+  "net_r": 34.926,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -787,6 +787,15 @@
       "r": -1.05,
       "book": "watch",
       "ts": 1794789257229
+    },
+    "NIGHTUSDT|LONG|1794778159306": {
+      "sym": "NIGHTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.036,
+      "book": "watch",
+      "ts": 1794792128779
     }
   },
   "exec": {
@@ -798,10 +807,10 @@
   },
   "watch": {
     "wins": 38,
-    "losses": 47,
+    "losses": 48,
     "breakevens": 0,
-    "net_r": 31.012,
-    "count": 85
+    "net_r": 29.976,
+    "count": 86
   },
-  "updated_at": "2026-11-16 03:34"
+  "updated_at": "2026-11-16 04:22"
 }
