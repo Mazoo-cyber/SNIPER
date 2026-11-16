@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 40,
-  "losses": 48,
+  "wins": 41,
+  "losses": 50,
   "breakevens": 0,
-  "net_r": 34.926,
+  "net_r": 34.403,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -796,6 +796,33 @@
       "r": -1.036,
       "book": "watch",
       "ts": 1794792128779
+    },
+    "BEAMXUSDT|SHORT|1794646021171": {
+      "sym": "BEAMXUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 1.525,
+      "book": "watch",
+      "ts": 1794824060574
+    },
+    "SKYAIUSDT|LONG|1794732563674": {
+      "sym": "SKYAIUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.03,
+      "book": "watch",
+      "ts": 1794824060574
+    },
+    "ALLOUSDT|LONG|1794732563674": {
+      "sym": "ALLOUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.018,
+      "book": "watch",
+      "ts": 1794824060574
     }
   },
   "exec": {
@@ -806,11 +833,11 @@
     "count": 2
   },
   "watch": {
-    "wins": 38,
-    "losses": 48,
+    "wins": 39,
+    "losses": 50,
     "breakevens": 0,
-    "net_r": 29.976,
-    "count": 86
+    "net_r": 29.453,
+    "count": 89
   },
-  "updated_at": "2026-11-16 04:22"
+  "updated_at": "2026-11-16 13:14"
 }
