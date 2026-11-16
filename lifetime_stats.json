@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 41,
-  "losses": 50,
+  "wins": 42,
+  "losses": 53,
   "breakevens": 0,
-  "net_r": 34.403,
+  "net_r": 34.741,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -823,6 +823,42 @@
       "r": -1.018,
       "book": "watch",
       "ts": 1794824060574
+    },
+    "LITUSDT|SHORT|1794732563674": {
+      "sym": "LITUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 3.456,
+      "book": "watch",
+      "ts": 1794835927331
+    },
+    "KITEUSDT|LONG|1794824057786": {
+      "sym": "KITEUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.044,
+      "book": "watch",
+      "ts": 1794835927331
+    },
+    "XMRUSDT|SHORT|1794824057786": {
+      "sym": "XMRUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.042,
+      "book": "watch",
+      "ts": 1794835927331
+    },
+    "SKYAIUSDT|LONG|1794824057786": {
+      "sym": "SKYAIUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.032,
+      "book": "watch",
+      "ts": 1794835927331
     }
   },
   "exec": {
@@ -833,11 +869,11 @@
     "count": 2
   },
   "watch": {
-    "wins": 39,
-    "losses": 50,
+    "wins": 40,
+    "losses": 53,
     "breakevens": 0,
-    "net_r": 29.453,
-    "count": 89
+    "net_r": 29.791,
+    "count": 93
   },
-  "updated_at": "2026-11-16 13:14"
+  "updated_at": "2026-11-16 16:32"
 }
