@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 50,
-  "losses": 60,
+  "losses": 67,
   "breakevens": 0,
-  "net_r": 42.479,
+  "net_r": 35.241,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -994,6 +994,69 @@
       "r": -1.024,
       "book": "watch",
       "ts": 1794849046990
+    },
+    "GPSUSDT|SHORT|1794744498020": {
+      "sym": "GPSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.029,
+      "book": "watch",
+      "ts": 1794862394258
+    },
+    "1000PEPEUSDT|SHORT|1794824057786": {
+      "sym": "1000PEPEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.04,
+      "book": "watch",
+      "ts": 1794862394258
+    },
+    "ATOMUSDT|SHORT|1794835923821": {
+      "sym": "ATOMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.056,
+      "book": "watch",
+      "ts": 1794862394258
+    },
+    "LITUSDT|SHORT|1794835923821": {
+      "sym": "LITUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.031,
+      "book": "watch",
+      "ts": 1794862394258
+    },
+    "BANANAS31USDT|SHORT|1794824057786": {
+      "sym": "BANANAS31USDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.033,
+      "book": "watch",
+      "ts": 1794862394258
+    },
+    "TACUSDT|LONG|1794841599692": {
+      "sym": "TACUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.019,
+      "book": "watch",
+      "ts": 1794862394258
+    },
+    "PIEVERSEUSDT|LONG|1794849042262": {
+      "sym": "PIEVERSEUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.03,
+      "book": "watch",
+      "ts": 1794862394258
     }
   },
   "exec": {
@@ -1005,10 +1068,10 @@
   },
   "watch": {
     "wins": 48,
-    "losses": 60,
+    "losses": 67,
     "breakevens": 0,
-    "net_r": 37.529,
-    "count": 108
+    "net_r": 30.291,
+    "count": 115
   },
-  "updated_at": "2026-11-16 20:10"
+  "updated_at": "2026-11-16 23:53"
 }
