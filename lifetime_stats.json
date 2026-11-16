@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 39,
-  "losses": 39,
+  "wins": 40,
+  "losses": 47,
   "breakevens": 0,
-  "net_r": 43.622,
+  "net_r": 35.962,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -706,6 +706,87 @@
       "r": -1.042,
       "book": "watch",
       "ts": 1794778162122
+    },
+    "PROMUSDT|SHORT|1794617879001": {
+      "sym": "PROMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.02,
+      "book": "watch",
+      "ts": 1794789257229
+    },
+    "DODOXUSDT|LONG|1794691976028": {
+      "sym": "DODOXUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.91,
+      "book": "watch",
+      "ts": 1794789257229
+    },
+    "NEARUSDT|SHORT|1794704457420": {
+      "sym": "NEARUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.039,
+      "book": "watch",
+      "ts": 1794789257229
+    },
+    "SUIUSDT|SHORT|1794732563674": {
+      "sym": "SUIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.046,
+      "book": "watch",
+      "ts": 1794789257229
+    },
+    "LDOUSDT|SHORT|1794732563674": {
+      "sym": "LDOUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.045,
+      "book": "watch",
+      "ts": 1794789257229
+    },
+    "XPLUSDT|SHORT|1794732563674": {
+      "sym": "XPLUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.039,
+      "book": "watch",
+      "ts": 1794789257229
+    },
+    "XAUTUSDT|SHORT|1794760744890": {
+      "sym": "XAUTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.165,
+      "book": "watch",
+      "ts": 1794789257229
+    },
+    "PAXGUSDT|SHORT|1794775344682": {
+      "sym": "PAXGUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.166,
+      "book": "watch",
+      "ts": 1794789257229
+    },
+    "CCUSDT|SHORT|1794778159306": {
+      "sym": "CCUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.05,
+      "book": "watch",
+      "ts": 1794789257229
     }
   },
   "exec": {
@@ -716,11 +797,11 @@
     "count": 2
   },
   "watch": {
-    "wins": 37,
-    "losses": 39,
+    "wins": 38,
+    "losses": 47,
     "breakevens": 0,
-    "net_r": 38.672,
-    "count": 76
+    "net_r": 31.012,
+    "count": 85
   },
-  "updated_at": "2026-11-16 00:29"
+  "updated_at": "2026-11-16 03:34"
 }
