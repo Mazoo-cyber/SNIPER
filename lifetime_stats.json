@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 46,
-  "losses": 58,
+  "wins": 50,
+  "losses": 60,
   "breakevens": 0,
-  "net_r": 34.109,
+  "net_r": 42.479,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -940,6 +940,60 @@
       "r": -1.038,
       "book": "watch",
       "ts": 1794841604027
+    },
+    "APRUSDT|SHORT|1794732563674": {
+      "sym": "APRUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.74,
+      "book": "watch",
+      "ts": 1794849046990
+    },
+    "MONUSDT|SHORT|1794732563674": {
+      "sym": "MONUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.527,
+      "book": "watch",
+      "ts": 1794849046990
+    },
+    "BMTUSDT|SHORT|1794747182373": {
+      "sym": "BMTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.006,
+      "book": "watch",
+      "ts": 1794849046990
+    },
+    "PIEVERSEUSDT|LONG|1794760744890": {
+      "sym": "PIEVERSEUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 3.145,
+      "book": "watch",
+      "ts": 1794849046990
+    },
+    "ONUSDT|SHORT|1794824057786": {
+      "sym": "ONUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.024,
+      "book": "watch",
+      "ts": 1794849046990
+    },
+    "AINUSDT|SHORT|1794835923821": {
+      "sym": "AINUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.024,
+      "book": "watch",
+      "ts": 1794849046990
     }
   },
   "exec": {
@@ -950,11 +1004,11 @@
     "count": 2
   },
   "watch": {
-    "wins": 44,
-    "losses": 58,
+    "wins": 48,
+    "losses": 60,
     "breakevens": 0,
-    "net_r": 29.159,
-    "count": 102
+    "net_r": 37.529,
+    "count": 108
   },
-  "updated_at": "2026-11-16 18:06"
+  "updated_at": "2026-11-16 20:10"
 }
