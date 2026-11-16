@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 42,
-  "losses": 53,
+  "wins": 46,
+  "losses": 58,
   "breakevens": 0,
-  "net_r": 34.741,
+  "net_r": 34.109,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -859,6 +859,87 @@
       "r": -1.032,
       "book": "watch",
       "ts": 1794835927331
+    },
+    "0GUSDT|SHORT|1794732563674": {
+      "sym": "0GUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.0,
+      "book": "watch",
+      "ts": 1794841604027
+    },
+    "DYDXUSDT|SHORT|1794732563674": {
+      "sym": "DYDXUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.043,
+      "book": "watch",
+      "ts": 1794841604027
+    },
+    "HUMAUSDT|SHORT|1794732563674": {
+      "sym": "HUMAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 1.099,
+      "book": "watch",
+      "ts": 1794841604027
+    },
+    "ICPUSDT|SHORT|1794744498020": {
+      "sym": "ICPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.043,
+      "book": "watch",
+      "ts": 1794841604027
+    },
+    "XRPUSDT|SHORT|1794778159306": {
+      "sym": "XRPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.806,
+      "book": "watch",
+      "ts": 1794841604027
+    },
+    "XAUTUSDT|SHORT|1794792125199": {
+      "sym": "XAUTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.679,
+      "book": "watch",
+      "ts": 1794841604027
+    },
+    "AEROUSDT|SHORT|1794792125199": {
+      "sym": "AEROUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.042,
+      "book": "watch",
+      "ts": 1794841604027
+    },
+    "GALAUSDT|SHORT|1794775344682": {
+      "sym": "GALAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.05,
+      "book": "watch",
+      "ts": 1794841604027
+    },
+    "SPACEUSDT|SHORT|1794835923821": {
+      "sym": "SPACEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.038,
+      "book": "watch",
+      "ts": 1794841604027
     }
   },
   "exec": {
@@ -869,11 +950,11 @@
     "count": 2
   },
   "watch": {
-    "wins": 40,
-    "losses": 53,
+    "wins": 44,
+    "losses": 58,
     "breakevens": 0,
-    "net_r": 29.791,
-    "count": 93
+    "net_r": 29.159,
+    "count": 102
   },
-  "updated_at": "2026-11-16 16:32"
+  "updated_at": "2026-11-16 18:06"
 }
