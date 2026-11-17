@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 67,
-  "losses": 104,
+  "losses": 109,
   "breakevens": 0,
-  "net_r": 28.883,
+  "net_r": 23.641,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -1543,6 +1543,51 @@
       "r": -1.059,
       "book": "watch",
       "ts": 1794934808880
+    },
+    "TLMUSDT|SHORT|1794849042262": {
+      "sym": "TLMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.037,
+      "book": "watch",
+      "ts": 1794948998478
+    },
+    "FILUSDT|SHORT|1794934805419": {
+      "sym": "FILUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.047,
+      "book": "watch",
+      "ts": 1794948998478
+    },
+    "GRAMUSDT|SHORT|1794934805419": {
+      "sym": "GRAMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.054,
+      "book": "watch",
+      "ts": 1794948998478
+    },
+    "PENGUUSDT|SHORT|1794934805419": {
+      "sym": "PENGUUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.043,
+      "book": "watch",
+      "ts": 1794948998478
+    },
+    "1000SHIBUSDT|SHORT|1794934805419": {
+      "sym": "1000SHIBUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.061,
+      "book": "watch",
+      "ts": 1794948998478
     }
   },
   "exec": {
@@ -1554,10 +1599,10 @@
   },
   "watch": {
     "wins": 65,
-    "losses": 104,
+    "losses": 109,
     "breakevens": 0,
-    "net_r": 23.933,
-    "count": 169
+    "net_r": 18.691,
+    "count": 174
   },
-  "updated_at": "2026-11-17 20:00"
+  "updated_at": "2026-11-17 23:56"
 }
