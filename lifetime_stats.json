@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 51,
-  "losses": 69,
+  "wins": 55,
+  "losses": 81,
   "breakevens": 0,
-  "net_r": 34.283,
+  "net_r": 29.093,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -1084,6 +1084,150 @@
       "r": -1.046,
       "book": "watch",
       "ts": 1794875235599
+    },
+    "ONEUSDT|SHORT|1794617879001": {
+      "sym": "ONEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 2.07,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "INJUSDT|SHORT|1794704457420": {
+      "sym": "INJUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.02,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "LABUSDT|SHORT|1794732563674": {
+      "sym": "LABUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.032,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "CTUSDT|SHORT|1794732563674": {
+      "sym": "CTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.038,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "UNIUSDT|SHORT|1794744498020": {
+      "sym": "UNIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.038,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "BATUSDT|SHORT|1794744498020": {
+      "sym": "BATUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.034,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "JELLYJELLYUSDT|SHORT|1794747182373": {
+      "sym": "JELLYJELLYUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.902,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "AAVEUSDT|SHORT|1794760744890": {
+      "sym": "AAVEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.048,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "VVVUSDT|SHORT|1794792125199": {
+      "sym": "VVVUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.023,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "PROMUSDT|LONG|1794835923821": {
+      "sym": "PROMUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.922,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "ASTERUSDT|SHORT|1794841599692": {
+      "sym": "ASTERUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.029,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "MMTUSDT|LONG|1794849042262": {
+      "sym": "MMTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.319,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "QUSDT|SHORT|1794862388316": {
+      "sym": "QUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.03,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "PIEVERSEUSDT|LONG|1794862388316": {
+      "sym": "PIEVERSEUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.028,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "MMTUSDT|SHORT|1794862388316": {
+      "sym": "MMTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.04,
+      "book": "watch",
+      "ts": 1794905812783
+    },
+    "PHAUSDT|SHORT|1794862388316": {
+      "sym": "PHAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.043,
+      "book": "watch",
+      "ts": 1794905812783
     }
   },
   "exec": {
@@ -1094,11 +1238,11 @@
     "count": 2
   },
   "watch": {
-    "wins": 49,
-    "losses": 69,
+    "wins": 53,
+    "losses": 81,
     "breakevens": 0,
-    "net_r": 29.333,
-    "count": 118
+    "net_r": 24.143,
+    "count": 134
   },
-  "updated_at": "2026-11-17 04:04"
+  "updated_at": "2026-11-17 11:56"
 }
