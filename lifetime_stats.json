@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 55,
-  "losses": 81,
+  "wins": 60,
+  "losses": 90,
   "breakevens": 0,
-  "net_r": 29.093,
+  "net_r": 27.619,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -1228,6 +1228,132 @@
       "r": -1.043,
       "book": "watch",
       "ts": 1794905812783
+    },
+    "GRAMUSDT|SHORT|1794646021171": {
+      "sym": "GRAMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 1.589,
+      "book": "watch",
+      "ts": 1794920880143
+    },
+    "TRUMPUSDT|SHORT|1794732563674": {
+      "sym": "TRUMPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.042,
+      "book": "watch",
+      "ts": 1794920880143
+    },
+    "MAGMAUSDT|SHORT|1794732563674": {
+      "sym": "MAGMAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.74,
+      "book": "watch",
+      "ts": 1794920880143
+    },
+    "FETUSDT|SHORT|1794744498020": {
+      "sym": "FETUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.856,
+      "book": "watch",
+      "ts": 1794920880143
+    },
+    "ALLOUSDT|SHORT|1794778159306": {
+      "sym": "ALLOUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.978,
+      "book": "watch",
+      "ts": 1794920880143
+    },
+    "SUIUSDT|SHORT|1794824057786": {
+      "sym": "SUIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.742,
+      "book": "watch",
+      "ts": 1794920880143
+    },
+    "NEARUSDT|SHORT|1794835923821": {
+      "sym": "NEARUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.044,
+      "book": "watch",
+      "ts": 1794920880143
+    },
+    "XMRUSDT|SHORT|1794835923821": {
+      "sym": "XMRUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.047,
+      "book": "watch",
+      "ts": 1794920880143
+    },
+    "JUPUSDT|SHORT|1794841599692": {
+      "sym": "JUPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.025,
+      "book": "watch",
+      "ts": 1794920880143
+    },
+    "BLURUSDT|SHORT|1794849042262": {
+      "sym": "BLURUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.047,
+      "book": "watch",
+      "ts": 1794920880143
+    },
+    "ZECUSDT|SHORT|1794877452535": {
+      "sym": "ZECUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.04,
+      "book": "watch",
+      "ts": 1794920880143
+    },
+    "PHAUSDT|SHORT|1794905808287": {
+      "sym": "PHAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.043,
+      "book": "watch",
+      "ts": 1794920880143
+    },
+    "INJUSDT|SHORT|1794905808287": {
+      "sym": "INJUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.04,
+      "book": "watch",
+      "ts": 1794920880143
+    },
+    "ZAMAUSDT|SHORT|1794905808287": {
+      "sym": "ZAMAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.051,
+      "book": "watch",
+      "ts": 1794920880143
     }
   },
   "exec": {
@@ -1238,11 +1364,11 @@
     "count": 2
   },
   "watch": {
-    "wins": 53,
-    "losses": 81,
+    "wins": 58,
+    "losses": 90,
     "breakevens": 0,
-    "net_r": 24.143,
-    "count": 134
+    "net_r": 22.669,
+    "count": 148
   },
-  "updated_at": "2026-11-17 11:56"
+  "updated_at": "2026-11-17 16:08"
 }
