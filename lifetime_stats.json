@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 50,
-  "losses": 67,
+  "wins": 51,
+  "losses": 69,
   "breakevens": 0,
-  "net_r": 35.241,
+  "net_r": 34.283,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -1057,6 +1057,33 @@
       "r": -1.03,
       "book": "watch",
       "ts": 1794862394258
+    },
+    "WLFIUSDT|SHORT|1794607971558": {
+      "sym": "WLFIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 1.11,
+      "book": "watch",
+      "ts": 1794875235599
+    },
+    "CAPUSDT|LONG|1794760744890": {
+      "sym": "CAPUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.022,
+      "book": "watch",
+      "ts": 1794875235599
+    },
+    "HYPEUSDT|SHORT|1794849042262": {
+      "sym": "HYPEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.046,
+      "book": "watch",
+      "ts": 1794875235599
     }
   },
   "exec": {
@@ -1067,11 +1094,11 @@
     "count": 2
   },
   "watch": {
-    "wins": 48,
-    "losses": 67,
+    "wins": 49,
+    "losses": 69,
     "breakevens": 0,
-    "net_r": 30.291,
-    "count": 115
+    "net_r": 29.333,
+    "count": 118
   },
-  "updated_at": "2026-11-16 23:53"
+  "updated_at": "2026-11-17 03:27"
 }
