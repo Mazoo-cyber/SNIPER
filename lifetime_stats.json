@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 78,
-  "losses": 136,
+  "wins": 86,
+  "losses": 140,
   "breakevens": 0,
-  "net_r": 12.207,
+  "net_r": 20.21,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -1930,21 +1930,129 @@
       "r": -1.024,
       "book": "watch",
       "ts": 1794992355936
+    },
+    "LTCUSDT|SHORT|1794732563674": {
+      "sym": "LTCUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 0.381,
+      "book": "watch",
+      "ts": 1795007671087
+    },
+    "MORPHOUSDT|SHORT|1794732563674": {
+      "sym": "MORPHOUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 0.85,
+      "book": "watch",
+      "ts": 1795007671087
+    },
+    "ENAUSDT|SHORT|1794732563674": {
+      "sym": "ENAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 2.041,
+      "book": "watch",
+      "ts": 1795007671087
+    },
+    "SANDUSDT|SHORT|1794732563674": {
+      "sym": "SANDUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 0.289,
+      "book": "watch",
+      "ts": 1795007671087
+    },
+    "AVAXUSDT|SHORT|1794744498020": {
+      "sym": "AVAXUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 0.807,
+      "book": "exec",
+      "ts": 1795007671087
+    },
+    "ETHFIUSDT|SHORT|1794744498020": {
+      "sym": "ETHFIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 2.685,
+      "book": "watch",
+      "ts": 1795007671087
+    },
+    "METUSDT|SHORT|1794744498020": {
+      "sym": "METUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "L",
+      "r": -0.127,
+      "book": "watch",
+      "ts": 1795007671087
+    },
+    "ORDIUSDT|SHORT|1794744498020": {
+      "sym": "ORDIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "L",
+      "r": -0.216,
+      "book": "watch",
+      "ts": 1795007671087
+    },
+    "PENDLEUSDT|SHORT|1794744498020": {
+      "sym": "PENDLEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 0.736,
+      "book": "watch",
+      "ts": 1795007671087
+    },
+    "XAUTUSDT|SHORT|1794849042262": {
+      "sym": "XAUTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.642,
+      "book": "watch",
+      "ts": 1795007671087
+    },
+    "LABUSDT|SHORT|1794905808287": {
+      "sym": "LABUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.036,
+      "book": "watch",
+      "ts": 1795007671087
+    },
+    "XPLUSDT|SHORT|1794992350597": {
+      "sym": "XPLUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.049,
+      "book": "watch",
+      "ts": 1795007671087
     }
   },
   "exec": {
-    "wins": 3,
+    "wins": 4,
     "losses": 1,
     "breakevens": 0,
-    "net_r": 7.221,
-    "count": 4
+    "net_r": 8.028,
+    "count": 5
   },
   "watch": {
-    "wins": 75,
-    "losses": 135,
+    "wins": 82,
+    "losses": 139,
     "breakevens": 0,
-    "net_r": 4.986,
-    "count": 210
+    "net_r": 12.182,
+    "count": 221
   },
-  "updated_at": "2026-11-18 11:59"
+  "updated_at": "2026-11-18 16:14"
 }
