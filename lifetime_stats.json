@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 76,
-  "losses": 127,
+  "wins": 78,
+  "losses": 136,
   "breakevens": 0,
-  "net_r": 16.72,
+  "net_r": 12.207,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -1831,21 +1831,120 @@
       "r": -1.06,
       "book": "watch",
       "ts": 1794962107732
+    },
+    "ARXUSDT|SHORT|1794704457420": {
+      "sym": "ARXUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 3.297,
+      "book": "exec",
+      "ts": 1794992355936
+    },
+    "KGENUSDT|SHORT|1794704457420": {
+      "sym": "KGENUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "L",
+      "r": -0.302,
+      "book": "watch",
+      "ts": 1794992355936
+    },
+    "IRYSUSDT|SHORT|1794732563674": {
+      "sym": "IRYSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.038,
+      "book": "watch",
+      "ts": 1794992355936
+    },
+    "ETCUSDT|SHORT|1794732563674": {
+      "sym": "ETCUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.052,
+      "book": "watch",
+      "ts": 1794992355936
+    },
+    "ZKUSDT|SHORT|1794744498020": {
+      "sym": "ZKUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.863,
+      "book": "watch",
+      "ts": 1794992355936
+    },
+    "TRXUSDT|SHORT|1794849042262": {
+      "sym": "TRXUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.106,
+      "book": "watch",
+      "ts": 1794992355936
+    },
+    "XRPUSDT|SHORT|1794905808287": {
+      "sym": "XRPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.059,
+      "book": "watch",
+      "ts": 1794992355936
+    },
+    "BERAUSDT|SHORT|1794934805419": {
+      "sym": "BERAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.035,
+      "book": "watch",
+      "ts": 1794992355936
+    },
+    "ALLOUSDT|SHORT|1794934805419": {
+      "sym": "ALLOUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.033,
+      "book": "watch",
+      "ts": 1794992355936
+    },
+    "ERAUSDT|SHORT|1794948993479": {
+      "sym": "ERAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.024,
+      "book": "watch",
+      "ts": 1794992355936
+    },
+    "MAGMAUSDT|SHORT|1794964263847": {
+      "sym": "MAGMAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.024,
+      "book": "watch",
+      "ts": 1794992355936
     }
   },
   "exec": {
-    "wins": 2,
+    "wins": 3,
     "losses": 1,
     "breakevens": 0,
-    "net_r": 3.924,
-    "count": 3
+    "net_r": 7.221,
+    "count": 4
   },
   "watch": {
-    "wins": 74,
-    "losses": 126,
+    "wins": 75,
+    "losses": 135,
     "breakevens": 0,
-    "net_r": 12.796,
-    "count": 200
+    "net_r": 4.986,
+    "count": 210
   },
-  "updated_at": "2026-11-18 04:11"
+  "updated_at": "2026-11-18 11:59"
 }
