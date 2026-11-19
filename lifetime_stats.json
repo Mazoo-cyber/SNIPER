@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 97,
-  "losses": 147,
+  "wins": 100,
+  "losses": 151,
   "breakevens": 0,
-  "net_r": 35.588,
+  "net_r": 36.454,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -2200,6 +2200,69 @@
       "r": -1.053,
       "book": "watch",
       "ts": 1795035406087
+    },
+    "ERAUSDT|LONG|1794877452535": {
+      "sym": "ERAUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.018,
+      "book": "watch",
+      "ts": 1795048613291
+    },
+    "SEIUSDT|SHORT|1794948993479": {
+      "sym": "SEIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.831,
+      "book": "watch",
+      "ts": 1795048613291
+    },
+    "CAPUSDT|LONG|1794948993479": {
+      "sym": "CAPUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.022,
+      "book": "watch",
+      "ts": 1795048613291
+    },
+    "TIAUSDT|SHORT|1794948993479": {
+      "sym": "TIAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.249,
+      "book": "watch",
+      "ts": 1795048613291
+    },
+    "ZROUSDT|SHORT|1794992350597": {
+      "sym": "ZROUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.036,
+      "book": "watch",
+      "ts": 1795048613291
+    },
+    "STXUSDT|SHORT|1794992350597": {
+      "sym": "STXUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.901,
+      "book": "watch",
+      "ts": 1795048613291
+    },
+    "BEAMXUSDT|SHORT|1795021256690": {
+      "sym": "BEAMXUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.039,
+      "book": "watch",
+      "ts": 1795048613291
     }
   },
   "exec": {
@@ -2210,11 +2273,11 @@
     "count": 6
   },
   "watch": {
-    "wins": 92,
-    "losses": 146,
+    "wins": 95,
+    "losses": 150,
     "breakevens": 0,
-    "net_r": 24.605,
-    "count": 238
+    "net_r": 25.471,
+    "count": 245
   },
-  "updated_at": "2026-11-18 23:56"
+  "updated_at": "2026-11-19 03:36"
 }
