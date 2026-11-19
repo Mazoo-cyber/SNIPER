@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 116,
-  "losses": 177,
+  "wins": 119,
+  "losses": 184,
   "breakevens": 0,
-  "net_r": 36.971,
+  "net_r": 33.529,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -2641,6 +2641,96 @@
       "r": -1.02,
       "book": "watch",
       "ts": 1795094305802
+    },
+    "ETHUSDT|SHORT|1794835923821": {
+      "sym": "ETHUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 1.209,
+      "book": "watch",
+      "ts": 1795104286985
+    },
+    "WLFIUSDT|SHORT|1794877452535": {
+      "sym": "WLFIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.069,
+      "book": "watch",
+      "ts": 1795104286985
+    },
+    "SOLUSDT|SHORT|1794964263847": {
+      "sym": "SOLUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.808,
+      "book": "watch",
+      "ts": 1795104286985
+    },
+    "FETUSDT|SHORT|1795035402960": {
+      "sym": "FETUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.051,
+      "book": "watch",
+      "ts": 1795104286985
+    },
+    "HBARUSDT|SHORT|1795035402960": {
+      "sym": "HBARUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.057,
+      "book": "watch",
+      "ts": 1795104286985
+    },
+    "AAVEUSDT|SHORT|1795078783487": {
+      "sym": "AAVEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.886,
+      "book": "watch",
+      "ts": 1795104286985
+    },
+    "ZKPUSDT|SHORT|1795078783487": {
+      "sym": "ZKPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.032,
+      "book": "watch",
+      "ts": 1795104286985
+    },
+    "XRPUSDT|LONG|1795078783487": {
+      "sym": "XRPUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.06,
+      "book": "watch",
+      "ts": 1795104286985
+    },
+    "JUPUSDT|LONG|1795078783487": {
+      "sym": "JUPUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.042,
+      "book": "watch",
+      "ts": 1795104286985
+    },
+    "FHEUSDT|SHORT|1795094301662": {
+      "sym": "FHEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.034,
+      "book": "watch",
+      "ts": 1795104286985
     }
   },
   "exec": {
@@ -2651,11 +2741,11 @@
     "count": 7
   },
   "watch": {
-    "wins": 110,
-    "losses": 176,
+    "wins": 113,
+    "losses": 183,
     "breakevens": 0,
-    "net_r": 25.121,
-    "count": 286
+    "net_r": 21.679,
+    "count": 296
   },
-  "updated_at": "2026-11-19 16:18"
+  "updated_at": "2026-11-19 19:04"
 }
