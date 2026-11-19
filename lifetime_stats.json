@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 119,
-  "losses": 184,
+  "losses": 186,
   "breakevens": 0,
-  "net_r": 33.529,
+  "net_r": 31.45,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -2731,6 +2731,24 @@
       "r": -1.034,
       "book": "watch",
       "ts": 1795104286985
+    },
+    "ZECUSDT|LONG|1795094301662": {
+      "sym": "ZECUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.044,
+      "book": "watch",
+      "ts": 1795107735992
+    },
+    "CAPUSDT|SHORT|1795104284020": {
+      "sym": "CAPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.035,
+      "book": "watch",
+      "ts": 1795107735992
     }
   },
   "exec": {
@@ -2742,10 +2760,10 @@
   },
   "watch": {
     "wins": 113,
-    "losses": 183,
+    "losses": 185,
     "breakevens": 0,
-    "net_r": 21.679,
-    "count": 296
+    "net_r": 19.6,
+    "count": 298
   },
-  "updated_at": "2026-11-19 19:04"
+  "updated_at": "2026-11-19 20:02"
 }
