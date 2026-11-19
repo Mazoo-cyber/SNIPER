@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 100,
-  "losses": 151,
+  "losses": 153,
   "breakevens": 0,
-  "net_r": 36.454,
+  "net_r": 34.212,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -2263,6 +2263,24 @@
       "r": -1.039,
       "book": "watch",
       "ts": 1795048613291
+    },
+    "TRXUSDT|SHORT|1794992350597": {
+      "sym": "TRXUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.18,
+      "book": "watch",
+      "ts": 1795050526496
+    },
+    "LTCUSDT|SHORT|1795021256690": {
+      "sym": "LTCUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.062,
+      "book": "watch",
+      "ts": 1795050526496
     }
   },
   "exec": {
@@ -2274,10 +2292,10 @@
   },
   "watch": {
     "wins": 95,
-    "losses": 150,
+    "losses": 152,
     "breakevens": 0,
-    "net_r": 25.471,
-    "count": 245
+    "net_r": 23.229,
+    "count": 247
   },
-  "updated_at": "2026-11-19 03:36"
+  "updated_at": "2026-11-19 04:08"
 }
