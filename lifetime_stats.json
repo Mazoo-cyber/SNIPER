@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 126,
-  "losses": 189,
+  "wins": 131,
+  "losses": 192,
   "breakevens": 0,
-  "net_r": 41.124,
+  "net_r": 48.272,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -2839,6 +2839,78 @@
       "r": -1.052,
       "book": "watch",
       "ts": 1795121760426
+    },
+    "DASHUSDT|SHORT|1794905808287": {
+      "sym": "DASHUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.113,
+      "book": "watch",
+      "ts": 1795134416451
+    },
+    "SUIUSDT|SHORT|1794948993479": {
+      "sym": "SUIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.214,
+      "book": "watch",
+      "ts": 1795134416451
+    },
+    "ARBUSDT|SHORT|1795021256690": {
+      "sym": "ARBUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.038,
+      "book": "watch",
+      "ts": 1795134416451
+    },
+    "INJUSDT|LONG|1795078783487": {
+      "sym": "INJUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.032,
+      "book": "watch",
+      "ts": 1795134416451
+    },
+    "BTCUSDT|SHORT|1795094301662": {
+      "sym": "BTCUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.113,
+      "book": "watch",
+      "ts": 1795134416451
+    },
+    "ZECUSDT|SHORT|1795104284020": {
+      "sym": "ZECUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.768,
+      "book": "watch",
+      "ts": 1795134416451
+    },
+    "DODOXUSDT|LONG|1795121756889": {
+      "sym": "DODOXUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.039,
+      "book": "watch",
+      "ts": 1795134416451
+    },
+    "HUMAUSDT|SHORT|1795121756889": {
+      "sym": "HUMAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.027,
+      "book": "watch",
+      "ts": 1795134416451
     }
   },
   "exec": {
@@ -2849,11 +2921,11 @@
     "count": 7
   },
   "watch": {
-    "wins": 120,
-    "losses": 188,
+    "wins": 125,
+    "losses": 191,
     "breakevens": 0,
-    "net_r": 29.274,
-    "count": 308
+    "net_r": 36.422,
+    "count": 316
   },
-  "updated_at": "2026-11-19 23:56"
+  "updated_at": "2026-11-20 03:26"
 }
