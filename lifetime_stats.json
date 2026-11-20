@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 184,
-  "losses": 207,
+  "wins": 187,
+  "losses": 208,
   "breakevens": 0,
-  "net_r": 163.106,
+  "net_r": 169.933,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -3523,6 +3523,42 @@
       "r": -1.032,
       "book": "watch",
       "ts": 1795191314190
+    },
+    "PHAUSDT|SHORT|1794934805419": {
+      "sym": "PHAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 2.536,
+      "book": "watch",
+      "ts": 1795196072465
+    },
+    "IDOLUSDT|LONG|1795078783487": {
+      "sym": "IDOLUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.209,
+      "book": "watch",
+      "ts": 1795196072465
+    },
+    "CTUSDT|LONG|1795121756889": {
+      "sym": "CTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.022,
+      "book": "watch",
+      "ts": 1795196072465
+    },
+    "ZECUSDT|SHORT|1795136532800": {
+      "sym": "ZECUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 3.104,
+      "book": "watch",
+      "ts": 1795196072465
     }
   },
   "exec": {
@@ -3533,11 +3569,11 @@
     "count": 10
   },
   "watch": {
-    "wins": 176,
-    "losses": 205,
+    "wins": 179,
+    "losses": 206,
     "breakevens": 0,
-    "net_r": 147.323,
-    "count": 381
+    "net_r": 154.15,
+    "count": 385
   },
-  "updated_at": "2026-11-20 19:57"
+  "updated_at": "2026-11-20 20:34"
 }
