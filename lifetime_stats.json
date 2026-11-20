@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 131,
-  "losses": 192,
+  "losses": 195,
   "breakevens": 0,
-  "net_r": 48.272,
+  "net_r": 45.186,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -2911,6 +2911,33 @@
       "r": -1.027,
       "book": "watch",
       "ts": 1795134416451
+    },
+    "ZILUSDT|SHORT|1795094301662": {
+      "sym": "ZILUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.026,
+      "book": "watch",
+      "ts": 1795136538622
+    },
+    "VVVUSDT|LONG|1795121756889": {
+      "sym": "VVVUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.039,
+      "book": "watch",
+      "ts": 1795136538622
+    },
+    "VELVETUSDT|LONG|1795121756889": {
+      "sym": "VELVETUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.021,
+      "book": "watch",
+      "ts": 1795136538622
     }
   },
   "exec": {
@@ -2922,10 +2949,10 @@
   },
   "watch": {
     "wins": 125,
-    "losses": 191,
+    "losses": 194,
     "breakevens": 0,
-    "net_r": 36.422,
-    "count": 316
+    "net_r": 33.336,
+    "count": 319
   },
-  "updated_at": "2026-11-20 03:26"
+  "updated_at": "2026-11-20 04:02"
 }
