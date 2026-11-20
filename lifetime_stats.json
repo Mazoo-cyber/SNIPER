@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 189,
+  "wins": 191,
   "losses": 208,
   "breakevens": 0,
-  "net_r": 176.078,
+  "net_r": 180.801,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -3577,6 +3577,24 @@
       "r": 3.238,
       "book": "watch",
       "ts": 1795205979474
+    },
+    "FARTCOINUSDT|SHORT|1795165150909": {
+      "sym": "FARTCOINUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.399,
+      "book": "watch",
+      "ts": 1795208035592
+    },
+    "OPUSDT|SHORT|1795165150909": {
+      "sym": "OPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.324,
+      "book": "watch",
+      "ts": 1795208035592
     }
   },
   "exec": {
@@ -3587,11 +3605,11 @@
     "count": 10
   },
   "watch": {
-    "wins": 181,
+    "wins": 183,
     "losses": 206,
     "breakevens": 0,
-    "net_r": 160.295,
-    "count": 387
+    "net_r": 165.018,
+    "count": 389
   },
-  "updated_at": "2026-11-20 23:19"
+  "updated_at": "2026-11-20 23:53"
 }
