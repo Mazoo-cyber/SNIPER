@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 187,
+  "wins": 189,
   "losses": 208,
   "breakevens": 0,
-  "net_r": 169.933,
+  "net_r": 176.078,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -3559,6 +3559,24 @@
       "r": 3.104,
       "book": "watch",
       "ts": 1795196072465
+    },
+    "WLDUSDT|SHORT|1795078783487": {
+      "sym": "WLDUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.907,
+      "book": "watch",
+      "ts": 1795205979474
+    },
+    "AAVEUSDT|SHORT|1795107732937": {
+      "sym": "AAVEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 3.238,
+      "book": "watch",
+      "ts": 1795205979474
     }
   },
   "exec": {
@@ -3569,11 +3587,11 @@
     "count": 10
   },
   "watch": {
-    "wins": 179,
+    "wins": 181,
     "losses": 206,
     "breakevens": 0,
-    "net_r": 154.15,
-    "count": 385
+    "net_r": 160.295,
+    "count": 387
   },
-  "updated_at": "2026-11-20 20:34"
+  "updated_at": "2026-11-20 23:19"
 }
