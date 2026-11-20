@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 146,
-  "losses": 201,
+  "wins": 149,
+  "losses": 202,
   "breakevens": 0,
-  "net_r": 72.817,
+  "net_r": 78.4,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -3127,6 +3127,42 @@
       "r": 1.046,
       "book": "watch",
       "ts": 1795165157508
+    },
+    "INJUSDT|SHORT|1795104284020": {
+      "sym": "INJUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.607,
+      "book": "watch",
+      "ts": 1795180376358
+    },
+    "USELESSUSDT|SHORT|1795104284020": {
+      "sym": "USELESSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 3.061,
+      "book": "watch",
+      "ts": 1795180376358
+    },
+    "MONUSDT|SHORT|1795107732937": {
+      "sym": "MONUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.952,
+      "book": "watch",
+      "ts": 1795180376358
+    },
+    "ONEUSDT|SHORT|1795165150909": {
+      "sym": "ONEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.037,
+      "book": "watch",
+      "ts": 1795180376358
     }
   },
   "exec": {
@@ -3137,11 +3173,11 @@
     "count": 8
   },
   "watch": {
-    "wins": 140,
-    "losses": 199,
+    "wins": 143,
+    "losses": 200,
     "breakevens": 0,
-    "net_r": 61.985,
-    "count": 339
+    "net_r": 67.568,
+    "count": 343
   },
-  "updated_at": "2026-11-20 11:59"
+  "updated_at": "2026-11-20 16:12"
 }
