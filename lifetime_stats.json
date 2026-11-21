@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 191,
-  "losses": 208,
+  "wins": 196,
+  "losses": 213,
   "breakevens": 0,
-  "net_r": 180.801,
+  "net_r": 184.305,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -3595,6 +3595,96 @@
       "r": 2.324,
       "book": "watch",
       "ts": 1795208035592
+    },
+    "GRAMUSDT|SHORT|1794948993479": {
+      "sym": "GRAMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 1.872,
+      "book": "watch",
+      "ts": 1795221065096
+    },
+    "LINKUSDT|SHORT|1795078783487": {
+      "sym": "LINKUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.509,
+      "book": "watch",
+      "ts": 1795221065096
+    },
+    "XPLUSDT|SHORT|1795180370226": {
+      "sym": "XPLUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.046,
+      "book": "watch",
+      "ts": 1795221065096
+    },
+    "CARVUSDT|SHORT|1795191310906": {
+      "sym": "CARVUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.038,
+      "book": "watch",
+      "ts": 1795221065096
+    },
+    "QNTUSDT|SHORT|1795191310906": {
+      "sym": "QNTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.764,
+      "book": "watch",
+      "ts": 1795221065096
+    },
+    "JUPUSDT|SHORT|1795191310906": {
+      "sym": "JUPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.037,
+      "book": "watch",
+      "ts": 1795221065096
+    },
+    "SOLUSDT|SHORT|1795196070066": {
+      "sym": "SOLUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.732,
+      "book": "watch",
+      "ts": 1795221065096
+    },
+    "IDOLUSDT|LONG|1795196070066": {
+      "sym": "IDOLUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.807,
+      "book": "watch",
+      "ts": 1795221065096
+    },
+    "HMSTRUSDT|LONG|1795196070066": {
+      "sym": "HMSTRUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.038,
+      "book": "watch",
+      "ts": 1795221065096
+    },
+    "HMSTRUSDT|SHORT|1795205976343": {
+      "sym": "HMSTRUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.021,
+      "book": "watch",
+      "ts": 1795221065096
     }
   },
   "exec": {
@@ -3605,11 +3695,11 @@
     "count": 10
   },
   "watch": {
-    "wins": 183,
-    "losses": 206,
+    "wins": 188,
+    "losses": 211,
     "breakevens": 0,
-    "net_r": 165.018,
-    "count": 389
+    "net_r": 168.522,
+    "count": 399
   },
-  "updated_at": "2026-11-20 23:53"
+  "updated_at": "2026-11-21 03:31"
 }
