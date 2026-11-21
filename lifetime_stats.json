@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 217,
-  "losses": 270,
+  "wins": 218,
+  "losses": 276,
   "breakevens": 0,
-  "net_r": 165.247,
+  "net_r": 159.873,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -4387,6 +4387,69 @@
       "r": -1.04,
       "book": "watch",
       "ts": 1795279432856
+    },
+    "RAVEUSDT|SHORT|1795165150909": {
+      "sym": "RAVEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.852,
+      "book": "watch",
+      "ts": 1795290301765
+    },
+    "LITUSDT|SHORT|1795251037806": {
+      "sym": "LITUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.032,
+      "book": "watch",
+      "ts": 1795290301765
+    },
+    "XMRUSDT|SHORT|1795265747276": {
+      "sym": "XMRUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.044,
+      "book": "watch",
+      "ts": 1795290301765
+    },
+    "GRAMUSDT|SHORT|1795265747276": {
+      "sym": "GRAMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.048,
+      "book": "watch",
+      "ts": 1795290301765
+    },
+    "BARDUSDT|SHORT|1795265747276": {
+      "sym": "BARDUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.03,
+      "book": "watch",
+      "ts": 1795290301765
+    },
+    "ETHFIUSDT|SHORT|1795265747276": {
+      "sym": "ETHFIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.04,
+      "book": "watch",
+      "ts": 1795290301765
+    },
+    "MAGMAUSDT|SHORT|1795279429741": {
+      "sym": "MAGMAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.032,
+      "book": "watch",
+      "ts": 1795290301765
     }
   },
   "exec": {
@@ -4397,11 +4460,11 @@
     "count": 11
   },
   "watch": {
-    "wins": 208,
-    "losses": 268,
+    "wins": 209,
+    "losses": 274,
     "breakevens": 0,
-    "net_r": 146.892,
-    "count": 476
+    "net_r": 141.518,
+    "count": 483
   },
-  "updated_at": "2026-11-21 19:43"
+  "updated_at": "2026-11-21 22:45"
 }
