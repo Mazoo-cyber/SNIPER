@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 218,
-  "losses": 277,
+  "losses": 278,
   "breakevens": 0,
-  "net_r": 158.842,
+  "net_r": 157.818,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -4459,6 +4459,15 @@
       "r": -1.031,
       "book": "watch",
       "ts": 1795293881295
+    },
+    "INITUSDT|SHORT|1795208033319": {
+      "sym": "INITUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.024,
+      "book": "watch",
+      "ts": 1795301062409
     }
   },
   "exec": {
@@ -4470,10 +4479,10 @@
   },
   "watch": {
     "wins": 209,
-    "losses": 275,
+    "losses": 276,
     "breakevens": 0,
-    "net_r": 140.487,
-    "count": 484
+    "net_r": 139.463,
+    "count": 485
   },
-  "updated_at": "2026-11-21 23:44"
+  "updated_at": "2026-11-22 01:44"
 }
