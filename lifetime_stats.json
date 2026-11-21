@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 218,
-  "losses": 276,
+  "losses": 277,
   "breakevens": 0,
-  "net_r": 159.873,
+  "net_r": 158.842,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -4450,6 +4450,15 @@
       "r": -1.032,
       "book": "watch",
       "ts": 1795290301765
+    },
+    "MAGMAUSDT|SHORT|1795292331450": {
+      "sym": "MAGMAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.031,
+      "book": "watch",
+      "ts": 1795293881295
     }
   },
   "exec": {
@@ -4461,10 +4470,10 @@
   },
   "watch": {
     "wins": 209,
-    "losses": 274,
+    "losses": 275,
     "breakevens": 0,
-    "net_r": 141.518,
-    "count": 483
+    "net_r": 140.487,
+    "count": 484
   },
-  "updated_at": "2026-11-21 23:18"
+  "updated_at": "2026-11-21 23:44"
 }
