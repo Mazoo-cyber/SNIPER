@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 196,
-  "losses": 213,
+  "wins": 213,
+  "losses": 222,
   "breakevens": 0,
-  "net_r": 184.305,
+  "net_r": 208.82,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -3685,21 +3685,255 @@
       "r": -1.021,
       "book": "watch",
       "ts": 1795221065096
+    },
+    "TACUSDT|LONG|1794964263847": {
+      "sym": "TACUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 1.996,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "ASTERUSDT|SHORT|1794992350597": {
+      "sym": "ASTERUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 3.436,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "RENDERUSDT|SHORT|1795078783487": {
+      "sym": "RENDERUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.583,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "AVAXUSDT|SHORT|1795094301662": {
+      "sym": "AVAXUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.572,
+      "book": "exec",
+      "ts": 1795251042311
+    },
+    "CAPUSDT|SHORT|1795121756889": {
+      "sym": "CAPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.891,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "BILLUSDT|SHORT|1795165150909": {
+      "sym": "BILLUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.944,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "ETHFIUSDT|SHORT|1795165150909": {
+      "sym": "ETHFIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.09,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "PUMPUSDT|SHORT|1795180370226": {
+      "sym": "PUMPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.469,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "ZKPUSDT|SHORT|1795180370226": {
+      "sym": "ZKPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.034,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "GRASSUSDT|SHORT|1795180370226": {
+      "sym": "GRASSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.502,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "MEGAUSDT|LONG|1795180370226": {
+      "sym": "MEGAUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.028,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "VVVUSDT|SHORT|1795180370226": {
+      "sym": "VVVUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.022,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "MONUSDT|SHORT|1795180370226": {
+      "sym": "MONUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.78,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "YBUSDT|SHORT|1795191310906": {
+      "sym": "YBUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.023,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "ICNTUSDT|LONG|1795196070066": {
+      "sym": "ICNTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.021,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "ENSOUSDT|SHORT|1795205976343": {
+      "sym": "ENSOUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.028,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "SENTUSDT|LONG|1795205976343": {
+      "sym": "SENTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.03,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "STEEMUSDT|SHORT|1795205976343": {
+      "sym": "STEEMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.831,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "ADAUSDT|SHORT|1795196070066": {
+      "sym": "ADAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.623,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "ONDOUSDT|SHORT|1795205976343": {
+      "sym": "ONDOUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.621,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "LITUSDT|SHORT|1795208033319": {
+      "sym": "LITUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.901,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "XMRUSDT|SHORT|1795208033319": {
+      "sym": "XMRUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.868,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "BANKUSDT|SHORT|1795223188668": {
+      "sym": "BANKUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.862,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "BTWUSDT|SHORT|1795223188668": {
+      "sym": "BTWUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.021,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "XPLUSDT|SHORT|1795223188668": {
+      "sym": "XPLUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.775,
+      "book": "watch",
+      "ts": 1795251042311
+    },
+    "BREVUSDT|SHORT|1795223188668": {
+      "sym": "BREVUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.022,
+      "book": "watch",
+      "ts": 1795251042311
     }
   },
   "exec": {
-    "wins": 8,
+    "wins": 9,
     "losses": 2,
     "breakevens": 0,
-    "net_r": 15.783,
-    "count": 10
+    "net_r": 18.355,
+    "count": 11
   },
   "watch": {
-    "wins": 188,
-    "losses": 211,
+    "wins": 204,
+    "losses": 220,
     "breakevens": 0,
-    "net_r": 168.522,
-    "count": 399
+    "net_r": 190.465,
+    "count": 424
   },
-  "updated_at": "2026-11-21 04:06"
+  "updated_at": "2026-11-21 11:50"
 }
