@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 223,
-  "losses": 320,
+  "losses": 323,
   "breakevens": 0,
-  "net_r": 124.118,
+  "net_r": 120.995,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -4891,6 +4891,33 @@
       "r": -1.043,
       "book": "watch",
       "ts": 1795352118938
+    },
+    "BEATUSDT|SHORT|1795265747276": {
+      "sym": "BEATUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.033,
+      "book": "watch",
+      "ts": 1795365829168
+    },
+    "ETHFIUSDT|SHORT|1795337362774": {
+      "sym": "ETHFIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.043,
+      "book": "watch",
+      "ts": 1795365829168
+    },
+    "ARBUSDT|SHORT|1795337362774": {
+      "sym": "ARBUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.047,
+      "book": "watch",
+      "ts": 1795365829168
     }
   },
   "exec": {
@@ -4902,10 +4929,10 @@
   },
   "watch": {
     "wins": 213,
-    "losses": 318,
+    "losses": 321,
     "breakevens": 0,
-    "net_r": 102.882,
-    "count": 531
+    "net_r": 99.759,
+    "count": 534
   },
-  "updated_at": "2026-11-22 15:55"
+  "updated_at": "2026-11-22 19:43"
 }
