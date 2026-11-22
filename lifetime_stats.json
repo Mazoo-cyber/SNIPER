@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 223,
-  "losses": 323,
+  "wins": 224,
+  "losses": 326,
   "breakevens": 0,
-  "net_r": 120.995,
+  "net_r": 120.003,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -4918,21 +4918,57 @@
       "r": -1.047,
       "book": "watch",
       "ts": 1795365829168
+    },
+    "NIGHTUSDT|LONG|1795337362774": {
+      "sym": "NIGHTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.112,
+      "book": "watch",
+      "ts": 1795378233374
+    },
+    "AEROUSDT|SHORT|1795352114454": {
+      "sym": "AEROUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.04,
+      "book": "watch",
+      "ts": 1795378233374
+    },
+    "PUMPUSDT|SHORT|1795352114454": {
+      "sym": "PUMPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.038,
+      "book": "watch",
+      "ts": 1795378233374
+    },
+    "PROMUSDT|SHORT|1795365825559": {
+      "sym": "PROMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.026,
+      "book": "exec",
+      "ts": 1795378233374
     }
   },
   "exec": {
     "wins": 10,
-    "losses": 2,
+    "losses": 3,
     "breakevens": 0,
-    "net_r": 21.236,
-    "count": 12
+    "net_r": 20.21,
+    "count": 13
   },
   "watch": {
-    "wins": 213,
-    "losses": 321,
+    "wins": 214,
+    "losses": 323,
     "breakevens": 0,
-    "net_r": 99.759,
-    "count": 534
+    "net_r": 99.793,
+    "count": 537
   },
-  "updated_at": "2026-11-22 19:43"
+  "updated_at": "2026-11-22 23:10"
 }
