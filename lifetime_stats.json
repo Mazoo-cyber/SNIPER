@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 218,
-  "losses": 278,
+  "losses": 279,
   "breakevens": 0,
-  "net_r": 157.818,
+  "net_r": 156.797,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -4468,6 +4468,15 @@
       "r": -1.024,
       "book": "watch",
       "ts": 1795301062409
+    },
+    "SIRENUSDT|LONG|1795292331450": {
+      "sym": "SIRENUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.021,
+      "book": "watch",
+      "ts": 1795306798933
     }
   },
   "exec": {
@@ -4479,10 +4488,10 @@
   },
   "watch": {
     "wins": 209,
-    "losses": 276,
+    "losses": 277,
     "breakevens": 0,
-    "net_r": 139.463,
-    "count": 485
+    "net_r": 138.442,
+    "count": 486
   },
-  "updated_at": "2026-11-22 02:14"
+  "updated_at": "2026-11-22 03:19"
 }
