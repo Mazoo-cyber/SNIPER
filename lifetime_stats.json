@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 218,
-  "losses": 279,
+  "losses": 280,
   "breakevens": 0,
-  "net_r": 156.797,
+  "net_r": 155.768,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -4477,6 +4477,15 @@
       "r": -1.021,
       "book": "watch",
       "ts": 1795306798933
+    },
+    "ERAUSDT|SHORT|1795205976343": {
+      "sym": "ERAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.029,
+      "book": "watch",
+      "ts": 1795309342908
     }
   },
   "exec": {
@@ -4488,10 +4497,10 @@
   },
   "watch": {
     "wins": 209,
-    "losses": 277,
+    "losses": 278,
     "breakevens": 0,
-    "net_r": 138.442,
-    "count": 486
+    "net_r": 137.413,
+    "count": 487
   },
-  "updated_at": "2026-11-22 03:19"
+  "updated_at": "2026-11-22 04:02"
 }
