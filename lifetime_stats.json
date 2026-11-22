@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 224,
-  "losses": 326,
+  "losses": 328,
   "breakevens": 0,
-  "net_r": 120.003,
+  "net_r": 117.828,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -4954,6 +4954,24 @@
       "r": -1.026,
       "book": "exec",
       "ts": 1795378233374
+    },
+    "XMRUSDT|SHORT|1795292331450": {
+      "sym": "XMRUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.046,
+      "book": "watch",
+      "ts": 1795389878960
+    },
+    "XAUTUSDT|SHORT|1795337362774": {
+      "sym": "XAUTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.129,
+      "book": "watch",
+      "ts": 1795389878960
     }
   },
   "exec": {
@@ -4965,10 +4983,10 @@
   },
   "watch": {
     "wins": 214,
-    "losses": 323,
+    "losses": 325,
     "breakevens": 0,
-    "net_r": 99.793,
-    "count": 537
+    "net_r": 97.618,
+    "count": 539
   },
-  "updated_at": "2026-11-22 23:46"
+  "updated_at": "2026-11-23 02:24"
 }
