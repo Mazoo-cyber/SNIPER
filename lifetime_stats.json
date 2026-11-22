@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 218,
-  "losses": 280,
+  "wins": 219,
+  "losses": 293,
   "breakevens": 0,
-  "net_r": 155.768,
+  "net_r": 145.191,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -4486,21 +4486,147 @@
       "r": -1.029,
       "book": "watch",
       "ts": 1795309342908
+    },
+    "PIEVERSEUSDT|LONG|1795223188668": {
+      "sym": "PIEVERSEUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.881,
+      "book": "exec",
+      "ts": 1795337367280
+    },
+    "GIGGLEUSDT|SHORT|1795265747276": {
+      "sym": "GIGGLEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.046,
+      "book": "watch",
+      "ts": 1795337367280
+    },
+    "AEROUSDT|SHORT|1795265747276": {
+      "sym": "AEROUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.044,
+      "book": "watch",
+      "ts": 1795337367280
+    },
+    "DASHUSDT|SHORT|1795279429741": {
+      "sym": "DASHUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.043,
+      "book": "watch",
+      "ts": 1795337367280
+    },
+    "CTUSDT|LONG|1795279429741": {
+      "sym": "CTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.034,
+      "book": "watch",
+      "ts": 1795337367280
+    },
+    "MEGAUSDT|LONG|1795279429741": {
+      "sym": "MEGAUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.032,
+      "book": "watch",
+      "ts": 1795337367280
+    },
+    "NAORISUSDT|LONG|1795290299265": {
+      "sym": "NAORISUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.024,
+      "book": "watch",
+      "ts": 1795337367280
+    },
+    "TAOUSDT|SHORT|1795292331450": {
+      "sym": "TAOUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.044,
+      "book": "watch",
+      "ts": 1795337367280
+    },
+    "ONUSDT|LONG|1795301058508": {
+      "sym": "ONUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.031,
+      "book": "watch",
+      "ts": 1795337367280
+    },
+    "RAREUSDT|LONG|1795302875699": {
+      "sym": "RAREUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.02,
+      "book": "watch",
+      "ts": 1795337367280
+    },
+    "PONSUSDT|SHORT|1795279429741": {
+      "sym": "PONSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.028,
+      "book": "watch",
+      "ts": 1795337367280
+    },
+    "DODOXUSDT|LONG|1795309339848": {
+      "sym": "DODOXUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.029,
+      "book": "watch",
+      "ts": 1795337367280
+    },
+    "RENDERUSDT|SHORT|1795309339848": {
+      "sym": "RENDERUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.045,
+      "book": "watch",
+      "ts": 1795337367280
+    },
+    "ORCAUSDT|SHORT|1795309339848": {
+      "sym": "ORCAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.038,
+      "book": "watch",
+      "ts": 1795337367280
     }
   },
   "exec": {
-    "wins": 9,
+    "wins": 10,
     "losses": 2,
     "breakevens": 0,
-    "net_r": 18.355,
-    "count": 11
+    "net_r": 21.236,
+    "count": 12
   },
   "watch": {
     "wins": 209,
-    "losses": 278,
+    "losses": 291,
     "breakevens": 0,
-    "net_r": 137.413,
-    "count": 487
+    "net_r": 123.955,
+    "count": 500
   },
-  "updated_at": "2026-11-22 04:02"
+  "updated_at": "2026-11-22 11:49"
 }
