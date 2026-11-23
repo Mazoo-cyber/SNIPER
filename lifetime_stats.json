@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 230,
+  "wins": 233,
   "losses": 418,
   "breakevens": 0,
-  "net_r": 37.289,
+  "net_r": 41.311,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -5836,6 +5836,33 @@
       "r": -1.036,
       "book": "watch",
       "ts": 1795451360102
+    },
+    "ONUSDT|LONG|1795337362774": {
+      "sym": "ONUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.933,
+      "book": "watch",
+      "ts": 1795453208806
+    },
+    "BRUSDT|SHORT|1795352114454": {
+      "sym": "BRUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.209,
+      "book": "watch",
+      "ts": 1795453208806
+    },
+    "NIGHTUSDT|LONG|1795425702835": {
+      "sym": "NIGHTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.88,
+      "book": "watch",
+      "ts": 1795453208806
     }
   },
   "exec": {
@@ -5846,11 +5873,11 @@
     "count": 15
   },
   "watch": {
-    "wins": 220,
+    "wins": 223,
     "losses": 413,
     "breakevens": 0,
-    "net_r": 19.155,
-    "count": 633
+    "net_r": 23.177,
+    "count": 636
   },
-  "updated_at": "2026-11-23 19:29"
+  "updated_at": "2026-11-23 20:00"
 }
