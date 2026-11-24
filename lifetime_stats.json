@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 234,
-  "losses": 430,
+  "losses": 431,
   "breakevens": 0,
-  "net_r": 29.761,
+  "net_r": 28.739,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -5980,14 +5980,23 @@
       "r": -1.049,
       "book": "watch",
       "ts": 1795480420126
+    },
+    "ELSAUSDT|LONG|1795479390472": {
+      "sym": "ELSAUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.022,
+      "book": "exec",
+      "ts": 1795482407881
     }
   },
   "exec": {
     "wins": 10,
-    "losses": 5,
+    "losses": 6,
     "breakevens": 0,
-    "net_r": 18.134,
-    "count": 15
+    "net_r": 17.112,
+    "count": 16
   },
   "watch": {
     "wins": 224,
@@ -5996,5 +6005,5 @@
     "net_r": 11.627,
     "count": 649
   },
-  "updated_at": "2026-11-24 03:33"
+  "updated_at": "2026-11-24 04:06"
 }
