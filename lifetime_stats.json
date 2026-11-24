@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 246,
-  "losses": 451,
+  "wins": 252,
+  "losses": 454,
   "breakevens": 0,
-  "net_r": 31.564,
+  "net_r": 41.912,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -6277,6 +6277,87 @@
       "r": -1.036,
       "book": "watch",
       "ts": 1795539788920
+    },
+    "IRYSUSDT|SHORT|1795389875783": {
+      "sym": "IRYSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 3.093,
+      "book": "watch",
+      "ts": 1795553844317
+    },
+    "FILUSDT|SHORT|1795453206119": {
+      "sym": "FILUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.469,
+      "book": "watch",
+      "ts": 1795553844317
+    },
+    "BEATUSDT|SHORT|1795467321859": {
+      "sym": "BEATUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.796,
+      "book": "watch",
+      "ts": 1795553844317
+    },
+    "TIAUSDT|SHORT|1795482401691": {
+      "sym": "TIAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.179,
+      "book": "watch",
+      "ts": 1795553844317
+    },
+    "QUSDT|LONG|1795482401691": {
+      "sym": "QUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.871,
+      "book": "watch",
+      "ts": 1795553844317
+    },
+    "BTWUSDT|LONG|1795510842484": {
+      "sym": "BTWUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.081,
+      "book": "watch",
+      "ts": 1795553844317
+    },
+    "ETCUSDT|SHORT|1795539783479": {
+      "sym": "ETCUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.058,
+      "book": "watch",
+      "ts": 1795553844317
+    },
+    "PENGUUSDT|SHORT|1795539783479": {
+      "sym": "PENGUUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.043,
+      "book": "watch",
+      "ts": 1795553844317
+    },
+    "1000LUNCUSDT|LONG|1795539783479": {
+      "sym": "1000LUNCUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.04,
+      "book": "watch",
+      "ts": 1795553844317
     }
   },
   "exec": {
@@ -6287,11 +6368,11 @@
     "count": 19
   },
   "watch": {
-    "wins": 235,
-    "losses": 443,
+    "wins": 241,
+    "losses": 446,
     "breakevens": 0,
-    "net_r": 15.616,
-    "count": 678
+    "net_r": 25.964,
+    "count": 687
   },
-  "updated_at": "2026-11-24 20:03"
+  "updated_at": "2026-11-24 23:57"
 }
