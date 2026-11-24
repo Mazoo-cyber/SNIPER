@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 238,
-  "losses": 442,
+  "wins": 243,
+  "losses": 449,
   "breakevens": 0,
-  "net_r": 24.201,
+  "net_r": 27.575,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -6124,6 +6124,114 @@
       "r": 2.936,
       "book": "watch",
       "ts": 1795510846916
+    },
+    "SOPHUSDT|SHORT|1795251037806": {
+      "sym": "SOPHUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 1.681,
+      "book": "watch",
+      "ts": 1795526343239
+    },
+    "ZKPUSDT|SHORT|1795265747276": {
+      "sym": "ZKPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.595,
+      "book": "watch",
+      "ts": 1795526343239
+    },
+    "RAREUSDT|LONG|1795380415382": {
+      "sym": "RAREUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.021,
+      "book": "watch",
+      "ts": 1795526343239
+    },
+    "KERNELUSDT|LONG|1795396075258": {
+      "sym": "KERNELUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.893,
+      "book": "watch",
+      "ts": 1795526343239
+    },
+    "DOSUSDT|SHORT|1795453206119": {
+      "sym": "DOSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 3.784,
+      "book": "watch",
+      "ts": 1795526343239
+    },
+    "BRUSDT|LONG|1795453206119": {
+      "sym": "BRUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.021,
+      "book": "watch",
+      "ts": 1795526343239
+    },
+    "AVAXUSDT|SHORT|1795467321859": {
+      "sym": "AVAXUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.779,
+      "book": "watch",
+      "ts": 1795526343239
+    },
+    "TRXUSDT|LONG|1795467321859": {
+      "sym": "TRXUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.164,
+      "book": "watch",
+      "ts": 1795526343239
+    },
+    "SUIUSDT|LONG|1795482401691": {
+      "sym": "SUIUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.046,
+      "book": "watch",
+      "ts": 1795526343239
+    },
+    "TAOUSDT|LONG|1795482401691": {
+      "sym": "TAOUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.026,
+      "book": "watch",
+      "ts": 1795526343239
+    },
+    "LSKUSDT|LONG|1795510842484": {
+      "sym": "LSKUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.042,
+      "book": "watch",
+      "ts": 1795526343239
+    },
+    "QNTUSDT|LONG|1795510842484": {
+      "sym": "QNTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.038,
+      "book": "watch",
+      "ts": 1795526343239
     }
   },
   "exec": {
@@ -6134,11 +6242,11 @@
     "count": 19
   },
   "watch": {
-    "wins": 227,
-    "losses": 434,
+    "wins": 232,
+    "losses": 441,
     "breakevens": 0,
-    "net_r": 8.253,
-    "count": 661
+    "net_r": 11.627,
+    "count": 673
   },
-  "updated_at": "2026-11-24 12:00"
+  "updated_at": "2026-11-24 16:19"
 }
