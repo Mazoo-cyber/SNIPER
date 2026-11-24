@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 234,
-  "losses": 431,
+  "wins": 238,
+  "losses": 442,
   "breakevens": 0,
-  "net_r": 28.739,
+  "net_r": 24.201,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -5989,21 +5989,156 @@
       "r": -1.022,
       "book": "exec",
       "ts": 1795482407881
+    },
+    "SHELLUSDT|LONG|1795223188668": {
+      "sym": "SHELLUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 2.165,
+      "book": "watch",
+      "ts": 1795510846916
+    },
+    "ERAUSDT|LONG|1795380415382": {
+      "sym": "ERAUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.024,
+      "book": "watch",
+      "ts": 1795510846916
+    },
+    "HUMAUSDT|SHORT|1795396075258": {
+      "sym": "HUMAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.029,
+      "book": "exec",
+      "ts": 1795510846916
+    },
+    "MONUSDT|SHORT|1795451356736": {
+      "sym": "MONUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.917,
+      "book": "exec",
+      "ts": 1795510846916
+    },
+    "AIOTUSDT|SHORT|1795451356736": {
+      "sym": "AIOTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.922,
+      "book": "watch",
+      "ts": 1795510846916
+    },
+    "TRADOORUSDT|LONG|1795453206119": {
+      "sym": "TRADOORUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.036,
+      "book": "watch",
+      "ts": 1795510846916
+    },
+    "XRPUSDT|SHORT|1795467321859": {
+      "sym": "XRPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.052,
+      "book": "exec",
+      "ts": 1795510846916
+    },
+    "BCHUSDT|SHORT|1795467321859": {
+      "sym": "BCHUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.053,
+      "book": "watch",
+      "ts": 1795510846916
+    },
+    "XLMUSDT|SHORT|1795467321859": {
+      "sym": "XLMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.055,
+      "book": "watch",
+      "ts": 1795510846916
+    },
+    "1000PEPEUSDT|SHORT|1795467321859": {
+      "sym": "1000PEPEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.043,
+      "book": "watch",
+      "ts": 1795510846916
+    },
+    "ADAUSDT|SHORT|1795467321859": {
+      "sym": "ADAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.052,
+      "book": "watch",
+      "ts": 1795510846916
+    },
+    "OPUSDT|SHORT|1795467321859": {
+      "sym": "OPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.036,
+      "book": "watch",
+      "ts": 1795510846916
+    },
+    "ATOMUSDT|SHORT|1795467321859": {
+      "sym": "ATOMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.057,
+      "book": "watch",
+      "ts": 1795510846916
+    },
+    "MUBARAKUSDT|SHORT|1795467321859": {
+      "sym": "MUBARAKUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.041,
+      "book": "watch",
+      "ts": 1795510846916
+    },
+    "TAUSDT|LONG|1795467321859": {
+      "sym": "TAUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.936,
+      "book": "watch",
+      "ts": 1795510846916
     }
   },
   "exec": {
-    "wins": 10,
-    "losses": 6,
+    "wins": 11,
+    "losses": 8,
     "breakevens": 0,
-    "net_r": 17.112,
-    "count": 16
+    "net_r": 15.948,
+    "count": 19
   },
   "watch": {
-    "wins": 224,
-    "losses": 425,
+    "wins": 227,
+    "losses": 434,
     "breakevens": 0,
-    "net_r": 11.627,
-    "count": 649
+    "net_r": 8.253,
+    "count": 661
   },
-  "updated_at": "2026-11-24 04:06"
+  "updated_at": "2026-11-24 12:00"
 }
