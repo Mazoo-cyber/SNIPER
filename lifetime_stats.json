@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 233,
-  "losses": 426,
+  "wins": 234,
+  "losses": 429,
   "breakevens": 0,
-  "net_r": 32.983,
+  "net_r": 30.81,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -5935,6 +5935,42 @@
       "r": -1.059,
       "book": "watch",
       "ts": 1795467327110
+    },
+    "TAOUSDT|LONG|1795396075258": {
+      "sym": "TAOUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.903,
+      "book": "watch",
+      "ts": 1795479396079
+    },
+    "AAVEUSDT|LONG|1795451356736": {
+      "sym": "AAVEUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.023,
+      "book": "watch",
+      "ts": 1795479396079
+    },
+    "ZECUSDT|LONG|1795453206119": {
+      "sym": "ZECUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.019,
+      "book": "watch",
+      "ts": 1795479396079
+    },
+    "CYSUSDT|SHORT|1795467321859": {
+      "sym": "CYSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.034,
+      "book": "watch",
+      "ts": 1795479396079
     }
   },
   "exec": {
@@ -5945,11 +5981,11 @@
     "count": 15
   },
   "watch": {
-    "wins": 223,
-    "losses": 421,
+    "wins": 224,
+    "losses": 424,
     "breakevens": 0,
-    "net_r": 14.849,
-    "count": 644
+    "net_r": 12.676,
+    "count": 648
   },
-  "updated_at": "2026-11-23 23:55"
+  "updated_at": "2026-11-24 03:16"
 }
