@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 243,
-  "losses": 449,
+  "wins": 246,
+  "losses": 451,
   "breakevens": 0,
-  "net_r": 27.575,
+  "net_r": 31.564,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -6232,6 +6232,51 @@
       "r": -1.038,
       "book": "watch",
       "ts": 1795526343239
+    },
+    "DODOXUSDT|LONG|1795425702835": {
+      "sym": "DODOXUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.888,
+      "book": "watch",
+      "ts": 1795539788920
+    },
+    "DASHUSDT|SHORT|1795451356736": {
+      "sym": "DASHUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.298,
+      "book": "watch",
+      "ts": 1795539788920
+    },
+    "VVVUSDT|LONG|1795467321859": {
+      "sym": "VVVUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.871,
+      "book": "watch",
+      "ts": 1795539788920
+    },
+    "INITUSDT|SHORT|1795482401691": {
+      "sym": "INITUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.032,
+      "book": "watch",
+      "ts": 1795539788920
+    },
+    "SAHARAUSDT|SHORT|1795526338830": {
+      "sym": "SAHARAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.036,
+      "book": "watch",
+      "ts": 1795539788920
     }
   },
   "exec": {
@@ -6242,11 +6287,11 @@
     "count": 19
   },
   "watch": {
-    "wins": 232,
-    "losses": 441,
+    "wins": 235,
+    "losses": 443,
     "breakevens": 0,
-    "net_r": 11.627,
-    "count": 673
+    "net_r": 15.616,
+    "count": 678
   },
-  "updated_at": "2026-11-24 16:19"
+  "updated_at": "2026-11-24 20:03"
 }
