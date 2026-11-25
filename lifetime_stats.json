@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 272,
-  "losses": 462,
+  "wins": 287,
+  "losses": 464,
   "breakevens": 0,
-  "net_r": 79.502,
+  "net_r": 111.079,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -6610,6 +6610,159 @@
       "r": -1.02,
       "book": "watch",
       "ts": 1795613026006
+    },
+    "LINKUSDT|SHORT|1795451356736": {
+      "sym": "LINKUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.362,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "FLOCKUSDT|SHORT|1795467321859": {
+      "sym": "FLOCKUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.596,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "ETHUSDT|SHORT|1795467321859": {
+      "sym": "ETHUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.592,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "BNBUSDT|SHORT|1795467321859": {
+      "sym": "BNBUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.327,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "RAYSOLUSDT|SHORT|1795467321859": {
+      "sym": "RAYSOLUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.419,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "WLDUSDT|SHORT|1795482401691": {
+      "sym": "WLDUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.356,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "BCHUSDT|SHORT|1795510842484": {
+      "sym": "BCHUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.714,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "XRPUSDT|SHORT|1795510842484": {
+      "sym": "XRPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.665,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "BTCUSDT|SHORT|1795510842484": {
+      "sym": "BTCUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.58,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "ATOMUSDT|SHORT|1795526338830": {
+      "sym": "ATOMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.23,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "ETCUSDT|SHORT|1795553841221": {
+      "sym": "ETCUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.94,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "ZECUSDT|SHORT|1795553841221": {
+      "sym": "ZECUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.951,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "PAXGUSDT|SHORT|1795553841221": {
+      "sym": "PAXGUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.537,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "XAUTUSDT|SHORT|1795553841221": {
+      "sym": "XAUTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.459,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "TRXUSDT|SHORT|1795569135499": {
+      "sym": "TRXUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.894,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "RPLUSDT|SHORT|1795569135499": {
+      "sym": "RPLUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.025,
+      "book": "watch",
+      "ts": 1795626165183
+    },
+    "1000PEPEUSDT|LONG|1795597356363": {
+      "sym": "1000PEPEUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.02,
+      "book": "watch",
+      "ts": 1795626165183
     }
   },
   "exec": {
@@ -6620,11 +6773,11 @@
     "count": 20
   },
   "watch": {
-    "wins": 261,
-    "losses": 453,
+    "wins": 276,
+    "losses": 455,
     "breakevens": 0,
-    "net_r": 64.593,
-    "count": 714
+    "net_r": 96.17,
+    "count": 731
   },
-  "updated_at": "2026-11-25 16:23"
+  "updated_at": "2026-11-25 20:02"
 }
