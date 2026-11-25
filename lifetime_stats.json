@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 265,
-  "losses": 458,
+  "wins": 272,
+  "losses": 462,
   "breakevens": 0,
-  "net_r": 65.573,
+  "net_r": 79.502,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -6511,6 +6511,105 @@
       "r": 2.939,
       "book": "watch",
       "ts": 1795597360706
+    },
+    "HOTUSDT|SHORT|1795337362774": {
+      "sym": "HOTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 1.823,
+      "book": "watch",
+      "ts": 1795613026006
+    },
+    "PENDLEUSDT|SHORT|1795467321859": {
+      "sym": "PENDLEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.551,
+      "book": "watch",
+      "ts": 1795613026006
+    },
+    "INJUSDT|SHORT|1795482401691": {
+      "sym": "INJUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.41,
+      "book": "watch",
+      "ts": 1795613026006
+    },
+    "JUPUSDT|SHORT|1795482401691": {
+      "sym": "JUPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 3.152,
+      "book": "watch",
+      "ts": 1795613026006
+    },
+    "PYTHUSDT|SHORT|1795482401691": {
+      "sym": "PYTHUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.809,
+      "book": "watch",
+      "ts": 1795613026006
+    },
+    "XRPUSDT|LONG|1795482401691": {
+      "sym": "XRPUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.03,
+      "book": "watch",
+      "ts": 1795613026006
+    },
+    "1000BONKUSDT|SHORT|1795482401691": {
+      "sym": "1000BONKUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.897,
+      "book": "watch",
+      "ts": 1795613026006
+    },
+    "ARBUSDT|LONG|1795526338830": {
+      "sym": "ARBUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.044,
+      "book": "watch",
+      "ts": 1795613026006
+    },
+    "BLURUSDT|LONG|1795569135499": {
+      "sym": "BLURUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.41,
+      "book": "watch",
+      "ts": 1795613026006
+    },
+    "MOODENGUSDT|SHORT|1795597356363": {
+      "sym": "MOODENGUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.029,
+      "book": "watch",
+      "ts": 1795613026006
+    },
+    "ARIAUSDT|SHORT|1795597356363": {
+      "sym": "ARIAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.02,
+      "book": "watch",
+      "ts": 1795613026006
     }
   },
   "exec": {
@@ -6521,11 +6620,11 @@
     "count": 20
   },
   "watch": {
-    "wins": 254,
-    "losses": 449,
+    "wins": 261,
+    "losses": 453,
     "breakevens": 0,
-    "net_r": 50.664,
-    "count": 703
+    "net_r": 64.593,
+    "count": 714
   },
-  "updated_at": "2026-11-25 12:02"
+  "updated_at": "2026-11-25 16:23"
 }
