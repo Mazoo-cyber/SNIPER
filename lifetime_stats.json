@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 252,
-  "losses": 454,
+  "wins": 258,
+  "losses": 455,
   "breakevens": 0,
-  "net_r": 41.912,
+  "net_r": 51.543,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -6358,6 +6358,69 @@
       "r": -1.04,
       "book": "watch",
       "ts": 1795553844317
+    },
+    "LABUSDT|SHORT|1795302875699": {
+      "sym": "LABUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 1.998,
+      "book": "watch",
+      "ts": 1795566832882
+    },
+    "SOLUSDT|SHORT|1795467321859": {
+      "sym": "SOLUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.169,
+      "book": "watch",
+      "ts": 1795566832882
+    },
+    "XMRUSDT|SHORT|1795467321859": {
+      "sym": "XMRUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.034,
+      "book": "watch",
+      "ts": 1795566832882
+    },
+    "XPLUSDT|SHORT|1795467321859": {
+      "sym": "XPLUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.885,
+      "book": "watch",
+      "ts": 1795566832882
+    },
+    "ETHFIUSDT|SHORT|1795467321859": {
+      "sym": "ETHFIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.787,
+      "book": "watch",
+      "ts": 1795566832882
+    },
+    "PONSUSDT|SHORT|1795510842484": {
+      "sym": "PONSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.021,
+      "book": "watch",
+      "ts": 1795566832882
+    },
+    "LITUSDT|SHORT|1795526338830": {
+      "sym": "LITUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.805,
+      "book": "watch",
+      "ts": 1795566832882
     }
   },
   "exec": {
@@ -6368,11 +6431,11 @@
     "count": 19
   },
   "watch": {
-    "wins": 241,
-    "losses": 446,
+    "wins": 247,
+    "losses": 447,
     "breakevens": 0,
-    "net_r": 25.964,
-    "count": 687
+    "net_r": 35.595,
+    "count": 694
   },
-  "updated_at": "2026-11-24 23:57"
+  "updated_at": "2026-11-25 03:33"
 }
