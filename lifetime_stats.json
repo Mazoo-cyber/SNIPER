@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 326,
-  "losses": 519,
+  "wins": 329,
+  "losses": 527,
   "breakevens": 0,
-  "net_r": 115.213,
+  "net_r": 109.404,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -7609,21 +7609,120 @@
       "r": 2.673,
       "book": "watch",
       "ts": 1795712756539
+    },
+    "GRASSUSDT|SHORT|1795467321859": {
+      "sym": "GRASSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.841,
+      "book": "watch",
+      "ts": 1795726686371
+    },
+    "ALGOUSDT|SHORT|1795539783479": {
+      "sym": "ALGOUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.027,
+      "book": "watch",
+      "ts": 1795726686371
+    },
+    "CYSUSDT|SHORT|1795597356363": {
+      "sym": "CYSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.024,
+      "book": "exec",
+      "ts": 1795726686371
+    },
+    "CYBERUSDT|SHORT|1795613023723": {
+      "sym": "CYBERUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.022,
+      "book": "watch",
+      "ts": 1795726686371
+    },
+    "ADAUSDT|SHORT|1795640346846": {
+      "sym": "ADAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.053,
+      "book": "watch",
+      "ts": 1795726686371
+    },
+    "LITUSDT|SHORT|1795683628425": {
+      "sym": "LITUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.847,
+      "book": "watch",
+      "ts": 1795726686371
+    },
+    "JUPUSDT|SHORT|1795683628425": {
+      "sym": "JUPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.046,
+      "book": "watch",
+      "ts": 1795726686371
+    },
+    "ICPUSDT|SHORT|1795683628425": {
+      "sym": "ICPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.801,
+      "book": "watch",
+      "ts": 1795726686371
+    },
+    "SEIUSDT|SHORT|1795712750984": {
+      "sym": "SEIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.033,
+      "book": "watch",
+      "ts": 1795726686371
+    },
+    "SAGAUSDT|SHORT|1795712750984": {
+      "sym": "SAGAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.036,
+      "book": "watch",
+      "ts": 1795726686371
+    },
+    "SANDUSDT|SHORT|1795712750984": {
+      "sym": "SANDUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.057,
+      "book": "watch",
+      "ts": 1795726686371
     }
   },
   "exec": {
     "wins": 12,
-    "losses": 10,
+    "losses": 11,
     "breakevens": 0,
-    "net_r": 15.081,
-    "count": 22
+    "net_r": 14.057,
+    "count": 23
   },
   "watch": {
-    "wins": 314,
-    "losses": 509,
+    "wins": 317,
+    "losses": 516,
     "breakevens": 0,
-    "net_r": 100.132,
-    "count": 823
+    "net_r": 95.347,
+    "count": 833
   },
-  "updated_at": "2026-11-26 20:05"
+  "updated_at": "2026-11-26 23:58"
 }
