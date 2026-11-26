@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 321,
-  "losses": 507,
+  "wins": 323,
+  "losses": 511,
   "breakevens": 0,
-  "net_r": 119.279,
+  "net_r": 118.357,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -7456,6 +7456,60 @@
       "r": -1.034,
       "book": "watch",
       "ts": 1795683632358
+    },
+    "BMTUSDT|SHORT|1795425702835": {
+      "sym": "BMTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 2.344,
+      "book": "watch",
+      "ts": 1795699361231
+    },
+    "PIPPINUSDT|LONG|1795467321859": {
+      "sym": "PIPPINUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.883,
+      "book": "watch",
+      "ts": 1795699361231
+    },
+    "QNTUSDT|SHORT|1795655553205": {
+      "sym": "QNTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.044,
+      "book": "watch",
+      "ts": 1795699361231
+    },
+    "ONEUSDT|SHORT|1795655553205": {
+      "sym": "ONEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.04,
+      "book": "watch",
+      "ts": 1795699361231
+    },
+    "DODOXUSDT|LONG|1795683628425": {
+      "sym": "DODOXUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.039,
+      "book": "watch",
+      "ts": 1795699361231
+    },
+    "SKYAIUSDT|SHORT|1795683628425": {
+      "sym": "SKYAIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.026,
+      "book": "watch",
+      "ts": 1795699361231
     }
   },
   "exec": {
@@ -7466,11 +7520,11 @@
     "count": 22
   },
   "watch": {
-    "wins": 309,
-    "losses": 497,
+    "wins": 311,
+    "losses": 501,
     "breakevens": 0,
-    "net_r": 104.198,
-    "count": 806
+    "net_r": 103.276,
+    "count": 812
   },
-  "updated_at": "2026-11-26 12:00"
+  "updated_at": "2026-11-26 16:22"
 }
