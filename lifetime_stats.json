@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 319,
-  "losses": 496,
+  "wins": 321,
+  "losses": 507,
   "breakevens": 0,
-  "net_r": 126.317,
+  "net_r": 119.279,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -7339,6 +7339,123 @@
       "r": -1.034,
       "book": "watch",
       "ts": 1795655559171
+    },
+    "ENSOUSDT|SHORT|1795526338830": {
+      "sym": "ENSOUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.842,
+      "book": "watch",
+      "ts": 1795683632358
+    },
+    "FETUSDT|SHORT|1795539783479": {
+      "sym": "FETUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.027,
+      "book": "watch",
+      "ts": 1795683632358
+    },
+    "DODOXUSDT|LONG|1795613023723": {
+      "sym": "DODOXUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 3.496,
+      "book": "watch",
+      "ts": 1795683632358
+    },
+    "PENGUUSDT|SHORT|1795626160825": {
+      "sym": "PENGUUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.026,
+      "book": "watch",
+      "ts": 1795683632358
+    },
+    "XRPUSDT|SHORT|1795640346846": {
+      "sym": "XRPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.057,
+      "book": "watch",
+      "ts": 1795683632358
+    },
+    "ERAUSDT|LONG|1795640346846": {
+      "sym": "ERAUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.044,
+      "book": "watch",
+      "ts": 1795683632358
+    },
+    "LTCUSDT|SHORT|1795640346846": {
+      "sym": "LTCUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.033,
+      "book": "watch",
+      "ts": 1795683632358
+    },
+    "AIOTUSDT|SHORT|1795640346846": {
+      "sym": "AIOTUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.022,
+      "book": "watch",
+      "ts": 1795683632358
+    },
+    "1000PEPEUSDT|SHORT|1795640346846": {
+      "sym": "1000PEPEUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.042,
+      "book": "watch",
+      "ts": 1795683632358
+    },
+    "GRAMUSDT|SHORT|1795640346846": {
+      "sym": "GRAMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.039,
+      "book": "watch",
+      "ts": 1795683632358
+    },
+    "AIGENSYNUSDT|LONG|1795655553205": {
+      "sym": "AIGENSYNUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.031,
+      "book": "watch",
+      "ts": 1795683632358
+    },
+    "PROMUSDT|LONG|1795655553205": {
+      "sym": "PROMUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.021,
+      "book": "watch",
+      "ts": 1795683632358
+    },
+    "TRUMPUSDT|LONG|1795655553205": {
+      "sym": "TRUMPUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.034,
+      "book": "watch",
+      "ts": 1795683632358
     }
   },
   "exec": {
@@ -7349,11 +7466,11 @@
     "count": 22
   },
   "watch": {
-    "wins": 307,
-    "losses": 486,
+    "wins": 309,
+    "losses": 497,
     "breakevens": 0,
-    "net_r": 111.236,
-    "count": 793
+    "net_r": 104.198,
+    "count": 806
   },
-  "updated_at": "2026-11-26 04:12"
+  "updated_at": "2026-11-26 12:00"
 }
