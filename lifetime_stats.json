@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 333,
-  "losses": 571,
+  "wins": 336,
+  "losses": 578,
   "breakevens": 0,
-  "net_r": 68.643,
+  "net_r": 68.712,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -8140,6 +8140,96 @@
       "r": -1.043,
       "book": "watch",
       "ts": 1795770117572
+    },
+    "RAREUSDT|SHORT|1795510842484": {
+      "sym": "RAREUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 2.258,
+      "book": "watch",
+      "ts": 1795785478010
+    },
+    "1000LUNCUSDT|LONG|1795683628425": {
+      "sym": "1000LUNCUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.393,
+      "book": "watch",
+      "ts": 1795785478010
+    },
+    "MONUSDT|SHORT|1795742278039": {
+      "sym": "MONUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.028,
+      "book": "watch",
+      "ts": 1795785478010
+    },
+    "SYRUPUSDT|SHORT|1795742278039": {
+      "sym": "SYRUPUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.037,
+      "book": "watch",
+      "ts": 1795785478010
+    },
+    "GRAMUSDT|SHORT|1795742278039": {
+      "sym": "GRAMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.044,
+      "book": "watch",
+      "ts": 1795785478010
+    },
+    "BTWUSDT|LONG|1795742278039": {
+      "sym": "BTWUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.643,
+      "book": "watch",
+      "ts": 1795785478010
+    },
+    "COLLECTUSDT|LONG|1795770113258": {
+      "sym": "COLLECTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.028,
+      "book": "watch",
+      "ts": 1795785478010
+    },
+    "PIEVERSEUSDT|LONG|1795770113258": {
+      "sym": "PIEVERSEUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.02,
+      "book": "watch",
+      "ts": 1795785478010
+    },
+    "AIOTUSDT|LONG|1795770113258": {
+      "sym": "AIOTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.021,
+      "book": "watch",
+      "ts": 1795785478010
+    },
+    "1000LUNCUSDT|SHORT|1795770113258": {
+      "sym": "1000LUNCUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.047,
+      "book": "watch",
+      "ts": 1795785478010
     }
   },
   "exec": {
@@ -8150,11 +8240,11 @@
     "count": 26
   },
   "watch": {
-    "wins": 321,
-    "losses": 557,
+    "wins": 324,
+    "losses": 564,
     "breakevens": 0,
-    "net_r": 57.708,
-    "count": 878
+    "net_r": 57.777,
+    "count": 888
   },
-  "updated_at": "2026-11-27 12:01"
+  "updated_at": "2026-11-27 16:17"
 }
