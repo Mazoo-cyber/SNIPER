@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 336,
-  "losses": 578,
+  "wins": 347,
+  "losses": 591,
   "breakevens": 0,
-  "net_r": 68.712,
+  "net_r": 76.013,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -8230,21 +8230,237 @@
       "r": -1.047,
       "book": "watch",
       "ts": 1795785478010
+    },
+    "KITEUSDT|LONG|1795626160825": {
+      "sym": "KITEUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.029,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "SOLUSDT|LONG|1795655553205": {
+      "sym": "SOLUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.747,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "1000BONKUSDT|SHORT|1795712750984": {
+      "sym": "1000BONKUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.996,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "HUMAUSDT|SHORT|1795726683493": {
+      "sym": "HUMAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.032,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "ALGOUSDT|LONG|1795726683493": {
+      "sym": "ALGOUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.785,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "SAGAUSDT|LONG|1795726683493": {
+      "sym": "SAGAUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.023,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "OPGUSDT|LONG|1795742278039": {
+      "sym": "OPGUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.982,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "ETHFIUSDT|SHORT|1795742278039": {
+      "sym": "ETHFIUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.861,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "AVAXUSDT|LONG|1795770113258": {
+      "sym": "AVAXUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.061,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "BNBUSDT|LONG|1795770113258": {
+      "sym": "BNBUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.073,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "SUIUSDT|LONG|1795770113258": {
+      "sym": "SUIUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.055,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "AEROUSDT|SHORT|1795770113258": {
+      "sym": "AEROUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.608,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "ENAUSDT|SHORT|1795770113258": {
+      "sym": "ENAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.303,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "UNIUSDT|LONG|1795770113258": {
+      "sym": "UNIUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.048,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "ATUSDT|SHORT|1795742278039": {
+      "sym": "ATUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.024,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "ETHUSDT|SHORT|1795785474681": {
+      "sym": "ETHUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 1.844,
+      "book": "exec",
+      "ts": 1795799049263
+    },
+    "1000LUNCUSDT|LONG|1795785474681": {
+      "sym": "1000LUNCUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.044,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "COLLECTUSDT|LONG|1795785474681": {
+      "sym": "COLLECTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.028,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "AIOTUSDT|LONG|1795785474681": {
+      "sym": "AIOTUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.02,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "LDOUSDT|SHORT|1795785474681": {
+      "sym": "LDOUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.164,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "PONSUSDT|SHORT|1795785474681": {
+      "sym": "PONSUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.001,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "XRPUSDT|LONG|1795785474681": {
+      "sym": "XRPUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.039,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "AVAXUSDT|SHORT|1795785474681": {
+      "sym": "AVAXUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 1.538,
+      "book": "watch",
+      "ts": 1795799049263
+    },
+    "FARTCOINUSDT|LONG|1795785474681": {
+      "sym": "FARTCOINUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.052,
+      "book": "watch",
+      "ts": 1795799049263
     }
   },
   "exec": {
-    "wins": 12,
+    "wins": 13,
     "losses": 14,
     "breakevens": 0,
-    "net_r": 10.935,
-    "count": 26
+    "net_r": 12.779,
+    "count": 27
   },
   "watch": {
-    "wins": 324,
-    "losses": 564,
+    "wins": 334,
+    "losses": 577,
     "breakevens": 0,
-    "net_r": 57.777,
-    "count": 888
+    "net_r": 63.234,
+    "count": 911
   },
-  "updated_at": "2026-11-27 16:17"
+  "updated_at": "2026-11-27 20:04"
 }
