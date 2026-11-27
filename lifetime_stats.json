@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
-  "wins": 329,
-  "losses": 527,
+  "wins": 331,
+  "losses": 532,
   "breakevens": 0,
-  "net_r": 109.404,
+  "net_r": 108.161,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -7708,21 +7708,84 @@
       "r": -1.057,
       "book": "watch",
       "ts": 1795726686371
+    },
+    "AEROUSDT|SHORT|1795467321859": {
+      "sym": "AEROUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 1.445,
+      "book": "watch",
+      "ts": 1795739989935
+    },
+    "ASTERUSDT|SHORT|1795467321859": {
+      "sym": "ASTERUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "W",
+      "r": 1.865,
+      "book": "watch",
+      "ts": 1795739989935
+    },
+    "ORCAUSDT|SHORT|1795467321859": {
+      "sym": "ORCAUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_EXPIRY",
+      "res": "L",
+      "r": -0.432,
+      "book": "watch",
+      "ts": 1795739989935
+    },
+    "GRAMUSDT|SHORT|1795699358065": {
+      "sym": "GRAMUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.049,
+      "book": "watch",
+      "ts": 1795739989935
+    },
+    "SOPHUSDT|SHORT|1795712750984": {
+      "sym": "SOPHUSDT",
+      "side": "SHORT",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.022,
+      "book": "watch",
+      "ts": 1795739989935
+    },
+    "PIEVERSEUSDT|LONG|1795712750984": {
+      "sym": "PIEVERSEUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.02,
+      "book": "watch",
+      "ts": 1795739989935
+    },
+    "OPGUSDT|LONG|1795726683493": {
+      "sym": "OPGUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.03,
+      "book": "exec",
+      "ts": 1795739989935
     }
   },
   "exec": {
     "wins": 12,
-    "losses": 11,
+    "losses": 12,
     "breakevens": 0,
-    "net_r": 14.057,
-    "count": 23
+    "net_r": 13.027,
+    "count": 24
   },
   "watch": {
-    "wins": 317,
-    "losses": 516,
+    "wins": 319,
+    "losses": 520,
     "breakevens": 0,
-    "net_r": 95.347,
-    "count": 833
+    "net_r": 95.134,
+    "count": 839
   },
-  "updated_at": "2026-11-26 23:58"
+  "updated_at": "2026-11-27 03:39"
 }
