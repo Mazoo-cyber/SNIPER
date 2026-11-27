@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-14 01:10",
   "wins": 347,
-  "losses": 591,
+  "losses": 592,
   "breakevens": 0,
-  "net_r": 76.013,
+  "net_r": 74.983,
   "counted": {
     "HOTUSDT|LONG|1794607971558": {
       "sym": "HOTUSDT",
@@ -8446,6 +8446,15 @@
       "r": -1.052,
       "book": "watch",
       "ts": 1795799049263
+    },
+    "PIPPINUSDT|LONG|1795742278039": {
+      "sym": "PIPPINUSDT",
+      "side": "LONG",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.03,
+      "book": "watch",
+      "ts": 1795813164343
     }
   },
   "exec": {
@@ -8457,10 +8466,10 @@
   },
   "watch": {
     "wins": 334,
-    "losses": 577,
+    "losses": 578,
     "breakevens": 0,
-    "net_r": 63.234,
-    "count": 911
+    "net_r": 62.204,
+    "count": 912
   },
-  "updated_at": "2026-11-27 20:04"
+  "updated_at": "2026-11-27 23:59"
 }
