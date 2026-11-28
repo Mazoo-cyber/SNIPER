@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-28 01:04",
-  "wins": 0,
-  "losses": 5,
+  "wins": 2,
+  "losses": 6,
   "breakevens": 0,
-  "net_r": -5.145,
+  "net_r": -3.088,
   "counted": {
     "VVVUSDT|LONG|1795817175462": {
       "sym": "VVVUSDT",
@@ -59,29 +59,62 @@
       "r": -1.021,
       "book": "watch",
       "ts": 1795855847638
+    },
+    "BCHUSDT|LONG|1795817175462": {
+      "sym": "BCHUSDT",
+      "side": "LONG",
+      "grade": "C",
+      "reach": "A",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.672,
+      "book": "watch",
+      "ts": 1795870800166
+    },
+    "NIGHTUSDT|LONG|1795828330146": {
+      "sym": "NIGHTUSDT",
+      "side": "LONG",
+      "grade": "A",
+      "reach": "A",
+      "trade_status": "CLOSED_TRAIL",
+      "res": "W",
+      "r": 2.408,
+      "book": "exec",
+      "ts": 1795870800166
+    },
+    "THEUSDT|SHORT|1795855844139": {
+      "sym": "THEUSDT",
+      "side": "SHORT",
+      "grade": "C",
+      "reach": "A",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.023,
+      "book": "watch",
+      "ts": 1795870800166
     }
   },
   "exec": {
-    "wins": 0,
+    "wins": 1,
     "losses": 1,
     "breakevens": 0,
-    "net_r": -1.04,
-    "count": 1
+    "net_r": 1.368,
+    "count": 2
   },
   "watch": {
-    "wins": 0,
-    "losses": 4,
+    "wins": 1,
+    "losses": 5,
     "breakevens": 0,
-    "net_r": -4.105,
-    "count": 4
+    "net_r": -4.456,
+    "count": 6
   },
   "by_grade": {
     "A": {
-      "wins": 0,
+      "wins": 1,
       "losses": 1,
       "breakevens": 0,
-      "net_r": -1.04,
-      "count": 1
+      "net_r": 1.368,
+      "count": 2
     },
     "B": {
       "wins": 0,
@@ -91,11 +124,11 @@
       "count": 0
     },
     "C": {
-      "wins": 0,
-      "losses": 4,
+      "wins": 1,
+      "losses": 5,
       "breakevens": 0,
-      "net_r": -4.105,
-      "count": 4
+      "net_r": -4.456,
+      "count": 6
     },
     "unknown": {
       "wins": 0,
@@ -105,5 +138,5 @@
       "count": 0
     }
   },
-  "updated_at": "2026-11-28 11:50"
+  "updated_at": "2026-11-28 16:00"
 }
