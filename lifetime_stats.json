@@ -1,10 +1,33 @@
 {
   "started_at": "2026-11-28 01:04",
   "wins": 0,
-  "losses": 0,
+  "losses": 2,
   "breakevens": 0,
-  "net_r": 0,
-  "counted": {},
+  "net_r": -2.065,
+  "counted": {
+    "VVVUSDT|LONG|1795817175462": {
+      "sym": "VVVUSDT",
+      "side": "LONG",
+      "grade": "C",
+      "reach": "A",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.033,
+      "book": "watch",
+      "ts": 1795826119590
+    },
+    "ACEUSDT|SHORT|1795817175462": {
+      "sym": "ACEUSDT",
+      "side": "SHORT",
+      "grade": "C",
+      "reach": "C",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.032,
+      "book": "watch",
+      "ts": 1795826119590
+    }
+  },
   "exec": {
     "wins": 0,
     "losses": 0,
@@ -14,10 +37,10 @@
   },
   "watch": {
     "wins": 0,
-    "losses": 0,
+    "losses": 2,
     "breakevens": 0,
-    "net_r": 0,
-    "count": 0
+    "net_r": -2.065,
+    "count": 2
   },
   "by_grade": {
     "A": {
@@ -36,10 +59,10 @@
     },
     "C": {
       "wins": 0,
-      "losses": 0,
+      "losses": 2,
       "breakevens": 0,
-      "net_r": 0,
-      "count": 0
+      "net_r": -2.065,
+      "count": 2
     },
     "unknown": {
       "wins": 0,
@@ -49,5 +72,5 @@
       "count": 0
     }
   },
-  "updated_at": "2026-11-28 01:06"
+  "updated_at": "2026-11-28 03:35"
 }
